@@ -9,8 +9,7 @@ body {
   margin: 0 auto;
 }
 p,
-a,
-li {
+a {
   font-size: 1.6rem;
 }
 h1 {
@@ -41,4 +40,9 @@ nav {
 }
 .homepage {
   border-bottom: 2px dashed maroon;
+}
+h2,
+h3,
+.location-info {
+  text-align: center;
 }
