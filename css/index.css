@@ -13,6 +13,9 @@ a,
 li {
   font-size: 1.6rem;
 }
+h1 {
+  font-size: 3rem;
+}
 h2 {
   font-size: 2.4rem;
 }
@@ -21,14 +24,21 @@ h3 {
 }
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  border: 1px solid purple;
 }
 a {
-  border: 1px solid purple;
+  text-decoration: none;
+  padding: 0 2%;
+}
+h1 {
+  width: 25%;
 }
 nav {
-  border: 1px solid purple;
+  width: 70%;
   display: flex;
+  justify-content: space-around;
+}
+.homepage {
+  border-bottom: 2px dashed maroon;
 }
