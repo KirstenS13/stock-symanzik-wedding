@@ -21,6 +21,11 @@ h2 {
 h3 {
   font-size: 2rem;
 }
+img {
+  display: inline-block;
+  height: auto;
+  width: 500px;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
