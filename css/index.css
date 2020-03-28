@@ -256,3 +256,7 @@ h2, h3, .location-info {
 }
 
 */
+.homepage {
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
