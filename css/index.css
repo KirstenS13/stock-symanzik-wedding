@@ -166,7 +166,6 @@ img {
 */
 * {
   box-sizing: border-box;
-  background-color: floralwhite;
 }
 html {
   font-size: 62.5%;
@@ -229,6 +228,24 @@ nav {
 }
 
 */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  background-color: lightgray;
+}
+.navbar h1 {
+  width: 40%;
+}
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.navbar nav a {
+  padding: 3%;
+}
 /*
 .homepage {
     border-bottom: 2px dashed maroon;
