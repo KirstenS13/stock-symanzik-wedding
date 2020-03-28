@@ -260,3 +260,27 @@ h2, h3, .location-info {
   background-color: lightgray;
   margin-bottom: 20px;
 }
+.rsvp-page {
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+.in-person-page {
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+.livestream-page {
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+.gifts-page {
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+.pics-page {
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
