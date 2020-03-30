@@ -283,6 +283,9 @@ h2, h3, .location-info {
 .homepage .title-info .location-info {
   padding: 20px 0;
 }
+.homepage .title-info p {
+  width: 50%;
+}
 .rsvp-page {
   background-color: lightgray;
   margin-bottom: 20px;
@@ -292,16 +295,37 @@ h2, h3, .location-info {
   background-color: lightgray;
   margin-bottom: 20px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.in-person-page p {
+  width: 50%;
 }
 .livestream-page {
   background-color: lightgray;
   margin-bottom: 20px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.livestream-page p {
+  width: 50%;
+}
+.livestream-page .livestream p {
+  width: 100%;
 }
 .gifts-page {
   background-color: lightgray;
   margin-bottom: 20px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gifts-page p {
+  width: 50%;
 }
 .gifts-page a {
   border: 1px solid purple;
