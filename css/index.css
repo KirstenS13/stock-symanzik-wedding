@@ -183,7 +183,8 @@ h2 {
 h3 {
   font-size: 2.2rem;
 }
-p {
+p,
+li {
   font-size: 1.6rem;
   line-height: 1.4;
 }
@@ -280,6 +281,12 @@ h2, h3, .location-info {
 .pics-page {
   background-color: lightgray;
   margin-bottom: 20px;
+}
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
 }
 footer {
   background-color: lightgray;
