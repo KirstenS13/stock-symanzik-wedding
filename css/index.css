@@ -187,7 +187,8 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
-a {
+a,
+address {
   font-size: 1.6rem;
 }
 img {
