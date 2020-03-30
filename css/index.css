@@ -274,6 +274,15 @@ h2, h3, .location-info {
   margin-bottom: 20px;
   padding: 20px;
 }
+.homepage .title-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.homepage .title-info .location-info {
+  padding: 20px 0;
+}
 .rsvp-page {
   background-color: lightgray;
   margin-bottom: 20px;
