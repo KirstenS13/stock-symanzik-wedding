@@ -340,6 +340,11 @@ h2, h3, .location-info {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: baseline;
+  padding: 20px 0;
+}
+.pics-page .collage1,
+.pics-page .collage2 {
+  padding-bottom: 80px;
 }
 footer {
   background-color: whitesmoke;
