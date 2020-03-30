@@ -187,9 +187,11 @@ h1 {
 }
 h2 {
   font-size: 2.6rem;
+  padding-bottom: 20px;
 }
 h3 {
   font-size: 2.2rem;
+  padding: 10px 0;
 }
 p,
 li {
@@ -243,6 +245,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
+  padding: 20px;
   background-color: lightgray;
 }
 .navbar h1 {
@@ -269,22 +272,27 @@ h2, h3, .location-info {
 .homepage {
   background-color: lightgray;
   margin-bottom: 20px;
+  padding: 20px;
 }
 .rsvp-page {
   background-color: lightgray;
   margin-bottom: 20px;
+  padding: 20px;
 }
 .in-person-page {
   background-color: lightgray;
   margin-bottom: 20px;
+  padding: 20px;
 }
 .livestream-page {
   background-color: lightgray;
   margin-bottom: 20px;
+  padding: 20px;
 }
 .gifts-page {
   background-color: lightgray;
   margin-bottom: 20px;
+  padding: 20px;
 }
 .gifts-page a {
   border: 1px solid purple;
@@ -292,8 +300,9 @@ h2, h3, .location-info {
 .pics-page {
   background-color: lightgray;
   margin-bottom: 20px;
+  padding: 20px;
 }
-.collage {
+.pics-page .collage {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -302,4 +311,5 @@ h2, h3, .location-info {
 footer {
   background-color: lightgray;
   margin-bottom: 20px;
+  padding: 20px;
 }
