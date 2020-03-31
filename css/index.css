@@ -259,6 +259,10 @@ nav {
   text-decoration: none;
   color: black;
 }
+.navbar nav a:hover {
+  color: #660000;
+  background-color: whitesmoke;
+}
 /*
 .homepage {
     border-bottom: 2px dashed maroon;
