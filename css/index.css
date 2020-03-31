@@ -278,7 +278,7 @@ h2, h3, .location-info {
 */
 .homepage {
   background-color: whitesmoke;
-  padding: 200px 3%;
+  padding: 200px 0;
   border-bottom: 2px solid silver;
 }
 .homepage .title-info {
