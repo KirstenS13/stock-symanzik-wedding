@@ -245,7 +245,8 @@ nav {
 */
 .navbar {
   padding: 20px 7%;
-  background-color: whitesmoke;
+  background-color: white;
+  border-bottom: 2px solid silver;
 }
 .navbar nav {
   display: flex;
@@ -270,7 +271,7 @@ h2, h3, .location-info {
 */
 .homepage {
   background-color: whitesmoke;
-  padding: 20px;
+  padding: 200px 3%;
   border-bottom: 2px solid silver;
 }
 .homepage .title-info {
@@ -289,13 +290,13 @@ h2, h3, .location-info {
   width: 50%;
 }
 .rsvp-page {
-  background-color: whitesmoke;
-  padding: 20px;
+  background-color: white;
+  padding: 200px 3%;
   border-bottom: 2px solid silver;
 }
 .in-person-page {
   background-color: whitesmoke;
-  padding: 20px;
+  padding: 200px 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -305,8 +306,8 @@ h2, h3, .location-info {
   width: 50%;
 }
 .livestream-page {
-  background-color: whitesmoke;
-  padding: 20px;
+  background-color: white;
+  padding: 200px 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -320,7 +321,7 @@ h2, h3, .location-info {
 }
 .gifts-page {
   background-color: whitesmoke;
-  padding: 20px;
+  padding: 200px 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -330,8 +331,8 @@ h2, h3, .location-info {
   width: 50%;
 }
 .pics-page {
-  background-color: whitesmoke;
-  padding: 20px;
+  background-color: white;
+  padding: 200px 3%;
   border-bottom: 2px solid silver;
 }
 .pics-page .collage {
@@ -347,5 +348,5 @@ h2, h3, .location-info {
 }
 footer {
   background-color: whitesmoke;
-  padding: 20px;
+  padding: 100px;
 }
