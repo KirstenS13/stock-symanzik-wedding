@@ -278,24 +278,32 @@ h2, h3, .location-info {
 */
 .homepage {
   background-color: whitesmoke;
+  margin-bottom: 20px;
   border-bottom: 2px solid silver;
 }
 .homepage .title-info {
+  background-image: url('../img/sample-img19.jpg');
+  height: 900px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepage .title-info .opaque-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url('../img/sample-img19.jpg');
-  height: 900px;
-  background-size: cover;
+  border: 2px solid silver;
+  width: 450px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.65);
 }
-.homepage .title-info h2 {
+.homepage .title-info .opaque-box h2 {
   font-size: 4rem;
 }
-.homepage .title-info .location-info {
-  /*  p {
-                width: 100%;
-            }*/
+.homepage .home-info {
+  padding: 200px 0;
 }
 .rsvp-page {
   background-color: white;
