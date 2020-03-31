@@ -317,14 +317,14 @@ h2, h3, .location-info {
   justify-content: space-evenly;
   align-items: center;
 }
-.homepage .home-info section {
+.homepage .home-info div {
   width: 50%;
 }
-.homepage .home-info section h3 {
+.homepage .home-info div h3 {
   font-family: 'Sen', sans-serif;
   padding-bottom: 20px;
 }
-.homepage .home-info section p {
+.homepage .home-info div p {
   font-family: 'Sen', sans-serif;
 }
 .homepage .home-info .para2 {
@@ -351,14 +351,14 @@ h2, h3, .location-info {
 .in-person-page h2 {
   font-family: 'Sen', sans-serif;
 }
-.in-person-page section {
+.in-person-page div {
   width: 50%;
 }
-.in-person-page section h3 {
+.in-person-page div h3 {
   font-family: 'Sen', sans-serif;
   padding-bottom: 20px;
 }
-.in-person-page section p {
+.in-person-page div p {
   font-family: 'Sen', sans-serif;
 }
 .in-person-page .hotel-info {
@@ -375,14 +375,14 @@ h2, h3, .location-info {
 .livestream-page h2 {
   font-family: 'Sen', sans-serif;
 }
-.livestream-page section {
+.livestream-page div {
   width: 50%;
 }
-.livestream-page section h3 {
+.livestream-page div h3 {
   font-family: 'Sen', sans-serif;
   padding-bottom: 20px;
 }
-.livestream-page section p {
+.livestream-page div p {
   font-family: 'Sen', sans-serif;
 }
 .livestream-page .para2 {
