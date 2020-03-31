@@ -317,14 +317,14 @@ h2, h3, .location-info {
   justify-content: space-evenly;
   align-items: center;
 }
-.homepage .home-info .para {
+.homepage .home-info section {
   width: 50%;
 }
-.homepage .home-info .para h3 {
+.homepage .home-info section h3 {
   font-family: 'Sen', sans-serif;
   padding-bottom: 20px;
 }
-.homepage .home-info .para p {
+.homepage .home-info section p {
   font-family: 'Sen', sans-serif;
 }
 .homepage .home-info .para2 {
@@ -351,14 +351,14 @@ h2, h3, .location-info {
 .in-person-page h2 {
   font-family: 'Sen', sans-serif;
 }
-.in-person-page div {
+.in-person-page section {
   width: 50%;
 }
-.in-person-page div h3 {
+.in-person-page section h3 {
   font-family: 'Sen', sans-serif;
   padding-bottom: 20px;
 }
-.in-person-page div p {
+.in-person-page section p {
   font-family: 'Sen', sans-serif;
 }
 .in-person-page .hotel-info {
@@ -372,13 +372,24 @@ h2, h3, .location-info {
   align-items: center;
   border-bottom: 2px solid silver;
 }
-.livestream-page h2,
-.livestream-page h3 {
+.livestream-page h2 {
   font-family: 'Sen', sans-serif;
 }
-.livestream-page p {
+.livestream-page section {
   width: 50%;
+}
+.livestream-page section h3 {
   font-family: 'Sen', sans-serif;
+  padding-bottom: 20px;
+}
+.livestream-page section p {
+  font-family: 'Sen', sans-serif;
+}
+.livestream-page .para2 {
+  padding: 40px 0;
+}
+.livestream-page .para3 {
+  padding-bottom: 40px;
 }
 .livestream-page .livestream p {
   width: 100%;
