@@ -24,6 +24,8 @@ h2, h3, .location-info {
         justify-content: center;
         align-items: center;
 
+        border-bottom: 2px solid @border-color;
+
         .opaque-box {
             display: flex;
             flex-direction: column;
@@ -44,7 +46,7 @@ h2, h3, .location-info {
             }
 
             .location-info {
-                font-family: 'Sen', sans-serif;
+                font-family: @main-font;
                 font-size: 1.9rem;
 
                 p {
@@ -56,5 +58,9 @@ h2, h3, .location-info {
 
     .home-info {
         padding: 200px 0;
+
+        h3, p {
+            font-family: @main-font;
+        }
     }
 }

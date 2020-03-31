@@ -288,6 +288,7 @@ h2, h3, .location-info {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 2px solid silver;
 }
 .homepage .title-info .opaque-box {
   display: flex;
@@ -312,10 +313,18 @@ h2, h3, .location-info {
 .homepage .home-info {
   padding: 200px 0;
 }
+.homepage .home-info h3,
+.homepage .home-info p {
+  font-family: 'Sen', sans-serif;
+}
 .rsvp-page {
   background-color: white;
   padding: 200px 3%;
   border-bottom: 2px solid silver;
+}
+.rsvp-page h2,
+.rsvp-page p {
+  font-family: 'Sen', sans-serif;
 }
 .in-person-page {
   background-color: whitesmoke;
@@ -325,8 +334,13 @@ h2, h3, .location-info {
   align-items: center;
   border-bottom: 2px solid silver;
 }
+.in-person-page h2,
+.in-person-page h3 {
+  font-family: 'Sen', sans-serif;
+}
 .in-person-page p {
   width: 50%;
+  font-family: 'Sen', sans-serif;
 }
 .livestream-page {
   background-color: white;
@@ -336,11 +350,17 @@ h2, h3, .location-info {
   align-items: center;
   border-bottom: 2px solid silver;
 }
+.livestream-page h2,
+.livestream-page h3 {
+  font-family: 'Sen', sans-serif;
+}
 .livestream-page p {
   width: 50%;
+  font-family: 'Sen', sans-serif;
 }
 .livestream-page .livestream p {
   width: 100%;
+  font-family: 'Sen', sans-serif;
 }
 .gifts-page {
   background-color: whitesmoke;
@@ -350,13 +370,36 @@ h2, h3, .location-info {
   align-items: center;
   border-bottom: 2px solid silver;
 }
+.gifts-page h2,
+.gifts-page h3,
+.gifts-page li {
+  font-family: 'Sen', sans-serif;
+}
 .gifts-page p {
   width: 50%;
+  font-family: 'Sen', sans-serif;
+}
+.gifts-page a {
+  padding: 1%;
+  font-size: 2rem;
+  font-family: 'Sen', sans-serif;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: 2px solid silver;
+}
+.gifts-page a:hover {
+  border: 2px solid maroon;
+  color: maroon;
 }
 .pics-page {
   background-color: white;
   padding: 200px 3%;
   border-bottom: 2px solid silver;
+}
+.pics-page h2,
+.pics-page h3 {
+  font-family: 'Sen', sans-serif;
 }
 .pics-page .collage {
   display: flex;
@@ -372,4 +415,7 @@ h2, h3, .location-info {
 footer {
   background-color: whitesmoke;
   padding: 100px;
+}
+footer p {
+  font-family: 'Sen', sans-serif;
 }
