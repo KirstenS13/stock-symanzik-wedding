@@ -5,14 +5,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     border-bottom: 2px solid @border-color;
 
-    h2, h3 {
+    h2 {
         font-family: @main-font;
     }
 
-    p {
+    div {
         width: 50%;
-        font-family: @main-font;
+
+        //border: 1px solid red;
+
+        h3 {
+            font-family: @main-font;
+            padding-bottom: 20px;
+        }
+    
+        p {
+            font-family: @main-font;
+        }
+    }
+
+    .hotel-info {
+        padding: 40px 0;
     }
 }
