@@ -131,6 +131,7 @@ table {
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 h1 {
   display: none;
@@ -172,7 +173,6 @@ address {
 .navbar nav {
   display: flex;
   justify-content: space-evenly;
-  scroll-behavior: smooth;
 }
 @media (max-width: 500px) {
   .navbar nav {
@@ -188,7 +188,6 @@ address {
   font-size: 2rem;
   text-decoration: none;
   color: black;
-  scroll-behavior: smooth;
 }
 .navbar nav a:hover {
   background-color: whitesmoke;
@@ -198,7 +197,6 @@ address {
   background-color: whitesmoke;
   margin-bottom: 20px;
   border-bottom: 2px solid silver;
-  scroll-behavior: smooth;
 }
 #homepage .title-info {
   background-image: url('../img/sample-img19.jpg');
@@ -286,7 +284,6 @@ address {
   background-color: white;
   padding: 200px 3%;
   border-bottom: 2px solid silver;
-  scroll-behavior: smooth;
   width: 50%;
   margin: 0 auto;
 }
@@ -342,7 +339,6 @@ address {
   flex-direction: column;
   align-items: center;
   border-bottom: 2px solid silver;
-  scroll-behavior: smooth;
 }
 #livestream-page div {
   width: 50%;
@@ -376,7 +372,6 @@ address {
   flex-direction: column;
   align-items: center;
   border-bottom: 2px solid silver;
-  scroll-behavior: smooth;
 }
 #gifts-page div {
   width: 50%;
@@ -434,7 +429,6 @@ address {
   background-color: white;
   padding: 200px 3%;
   border-bottom: 2px solid silver;
-  scroll-behavior: smooth;
 }
 #pics-page h3 {
   padding-bottom: 20px;
