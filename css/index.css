@@ -166,6 +166,11 @@ img {
   height: auto;
   width: 500px;
 }
+@media (max-width: 500px) {
+  img {
+    width: 400px;
+  }
+}
 .navbar {
   padding: 20px 7%;
   background-color: rgba(255, 255, 255, 0.5);
