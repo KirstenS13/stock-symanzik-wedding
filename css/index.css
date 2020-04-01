@@ -197,7 +197,7 @@ h3 {
 p,
 li {
   font-size: 1.6rem;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 a,
 address {
@@ -354,6 +354,9 @@ h2, h3, .location-info {
 .in-person-page div h3 {
   padding-bottom: 20px;
 }
+.in-person-page .main-info p {
+  padding: 10px 0;
+}
 .in-person-page .hotel-info {
   padding: 40px 0;
 }
@@ -398,15 +401,29 @@ h2, h3, .location-info {
     } */
 }
 .gifts-page div {
-  /*  li {
-            font-family: @main-font;
+  width: 50%;
+  /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+  /*  ul {
+            border: 1px solid blue;
+
+            // width: 50%;
+            // margin-left: 40%;
         } */
 }
 .gifts-page div h3 {
   padding-bottom: 20px;
 }
+.gifts-page div li {
+  list-style: disc inside;
+}
 .gifts-page .list2 {
   padding: 40px 0;
+  /*  ul {
+            margin-left: 25%;
+        } */
 }
 .gifts-page p {
   width: 50%;
