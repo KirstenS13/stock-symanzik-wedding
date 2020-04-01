@@ -453,3 +453,6 @@ footer {
         font-family: @main-font;
     } */
 }
+footer p {
+  padding: 10px 0;
+}
