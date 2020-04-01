@@ -177,7 +177,7 @@ address {
 @media (max-width: 500px) {
   .navbar nav {
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
   }
 }
@@ -216,6 +216,11 @@ address {
   width: 450px;
   height: 250px;
   background-color: rgba(255, 255, 255, 0.6);
+}
+@media (max-width: 500px) {
+  #homepage .title-info .opaque-box {
+    width: 400px;
+  }
 }
 #homepage .title-info .opaque-box h2 {
   font-size: 4.1rem;
