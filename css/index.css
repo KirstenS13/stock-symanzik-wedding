@@ -403,14 +403,23 @@ h2, h3, .location-info {
   align-items: center;
   border-bottom: 2px solid silver;
 }
-.gifts-page h2,
-.gifts-page h3,
-.gifts-page li {
+.gifts-page h2 {
   font-family: 'Sen', sans-serif;
+}
+.gifts-page div h3 {
+  font-family: 'Sen', sans-serif;
+  padding-bottom: 20px;
+}
+.gifts-page div li {
+  font-family: 'Sen', sans-serif;
+}
+.gifts-page .list2 {
+  padding: 40px 0;
 }
 .gifts-page p {
   width: 50%;
   font-family: 'Sen', sans-serif;
+  padding-bottom: 40px;
 }
 .gifts-page a {
   padding: 1%;
