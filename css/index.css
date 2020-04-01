@@ -373,6 +373,11 @@ img {
   background-color: white;
   border: 2px solid silver;
 }
+@media (max-width: 500px) {
+  #gifts-page a {
+    padding: 3%;
+  }
+}
 #gifts-page a:hover {
   border: 2px solid #660000;
   color: #660000;
