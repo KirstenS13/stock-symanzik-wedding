@@ -184,9 +184,7 @@ li,
 address,
 a {
   text-align: center;
-}
-h1 {
-  font-size: 3rem;
+  font-family: 'Sen', sans-serif;
 }
 h2 {
   font-size: 2.8rem;
@@ -258,7 +256,6 @@ nav {
 .navbar nav a {
   padding: 1%;
   font-size: 2rem;
-  font-family: 'Sen', sans-serif;
   text-decoration: none;
   color: black;
 }
@@ -304,7 +301,6 @@ h2, h3, .location-info {
   font-size: 4.1rem;
 }
 .homepage .title-info .opaque-box .location-info {
-  font-family: 'Sen', sans-serif;
   font-size: 1.9rem;
 }
 .homepage .title-info .opaque-box .location-info p {
@@ -319,13 +315,12 @@ h2, h3, .location-info {
 }
 .homepage .home-info div {
   width: 50%;
+  /* p {
+                font-family: @main-font;
+            } */
 }
 .homepage .home-info div h3 {
-  font-family: 'Sen', sans-serif;
   padding-bottom: 20px;
-}
-.homepage .home-info div p {
-  font-family: 'Sen', sans-serif;
 }
 .homepage .home-info .para2 {
   padding: 40px 0;
@@ -334,10 +329,9 @@ h2, h3, .location-info {
   background-color: white;
   padding: 200px 3%;
   border-bottom: 2px solid silver;
-}
-.rsvp-page h2,
-.rsvp-page p {
-  font-family: 'Sen', sans-serif;
+  /* h2, p {
+        font-family: @main-font;
+    } */
 }
 .in-person-page {
   background-color: whitesmoke;
@@ -347,19 +341,18 @@ h2, h3, .location-info {
   align-items: center;
   justify-content: space-evenly;
   border-bottom: 2px solid silver;
-}
-.in-person-page h2 {
-  font-family: 'Sen', sans-serif;
+  /* h2 {
+        font-family: @main-font;
+    } */
 }
 .in-person-page div {
   width: 50%;
+  /* p {
+            font-family: @main-font;
+        } */
 }
 .in-person-page div h3 {
-  font-family: 'Sen', sans-serif;
   padding-bottom: 20px;
-}
-.in-person-page div p {
-  font-family: 'Sen', sans-serif;
 }
 .in-person-page .hotel-info {
   padding: 40px 0;
@@ -371,19 +364,18 @@ h2, h3, .location-info {
   flex-direction: column;
   align-items: center;
   border-bottom: 2px solid silver;
-}
-.livestream-page h2 {
-  font-family: 'Sen', sans-serif;
+  /*  h2 {
+        font-family: @main-font;
+    } */
 }
 .livestream-page div {
   width: 50%;
+  /* p {
+            font-family: @main-font;
+        } */
 }
 .livestream-page div h3 {
-  font-family: 'Sen', sans-serif;
   padding-bottom: 20px;
-}
-.livestream-page div p {
-  font-family: 'Sen', sans-serif;
 }
 .livestream-page .para2 {
   padding: 40px 0;
@@ -393,7 +385,6 @@ h2, h3, .location-info {
 }
 .livestream-page .livestream p {
   width: 100%;
-  font-family: 'Sen', sans-serif;
 }
 .gifts-page {
   background-color: whitesmoke;
@@ -402,29 +393,28 @@ h2, h3, .location-info {
   flex-direction: column;
   align-items: center;
   border-bottom: 2px solid silver;
+  /* h2 {
+        font-family: @main-font;
+    } */
 }
-.gifts-page h2 {
-  font-family: 'Sen', sans-serif;
+.gifts-page div {
+  /*  li {
+            font-family: @main-font;
+        } */
 }
 .gifts-page div h3 {
-  font-family: 'Sen', sans-serif;
   padding-bottom: 20px;
-}
-.gifts-page div li {
-  font-family: 'Sen', sans-serif;
 }
 .gifts-page .list2 {
   padding: 40px 0;
 }
 .gifts-page p {
   width: 50%;
-  font-family: 'Sen', sans-serif;
   padding-bottom: 40px;
 }
 .gifts-page a {
   padding: 1%;
   font-size: 2rem;
-  font-family: 'Sen', sans-serif;
   text-decoration: none;
   color: black;
   background-color: white;
@@ -438,10 +428,12 @@ h2, h3, .location-info {
   background-color: white;
   padding: 200px 3%;
   border-bottom: 2px solid silver;
+  /* h2, h3 {
+        font-family: @main-font;
+    } */
 }
-.pics-page h2,
 .pics-page h3 {
-  font-family: 'Sen', sans-serif;
+  padding-bottom: 20px;
 }
 .pics-page .collage {
   display: flex;
@@ -457,7 +449,7 @@ h2, h3, .location-info {
 footer {
   background-color: whitesmoke;
   padding: 100px;
-}
-footer p {
-  font-family: 'Sen', sans-serif;
+  /* p {
+        font-family: @main-font;
+    } */
 }
