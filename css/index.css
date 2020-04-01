@@ -179,6 +179,13 @@ img {
   justify-content: space-between;
   scroll-behavior: smooth;
 }
+@media (max-width: 500px) {
+  .navbar nav {
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+}
 .navbar nav a {
   padding: 1%;
   font-size: 2rem;
@@ -217,6 +224,7 @@ img {
 }
 #homepage .title-info .opaque-box h2 {
   font-size: 4.1rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 #homepage .title-info .opaque-box .location-info {
   font-size: 1.9rem;

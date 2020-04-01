@@ -11,6 +11,12 @@
         display: flex;
         justify-content: space-between;
         scroll-behavior: smooth;
+
+        @media @mobile {
+            flex-direction: column;
+            width: 50%;
+            margin: 0 auto;
+        }
     
         a {
             padding: 1%;
