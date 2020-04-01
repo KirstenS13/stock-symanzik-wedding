@@ -17,6 +17,15 @@
 
         border-bottom: 2px solid @border-color;
 
+        @media @mobile {
+            background-color: @secondary-bg-color;
+            background-image: url('../img/mobile-bg-img.jpg');
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 150px 0;
+            height: 1000px;
+        }
+
         .opaque-box {
             display: flex;
             flex-direction: column;
@@ -48,6 +57,18 @@
                 }
             }
         }
+
+        img {
+            display: none;
+
+            @media @mobile {
+                display: block;
+                width: 400px;
+                height: auto;
+                border-radius: 30px;
+                border: 1px solid @border-color;
+            }
+        }
     }
 
     .home-info {
@@ -63,6 +84,10 @@
 
             @media @tablet {
                 width: 70%;
+            }
+
+            @media @mobile {
+                width: 80%;
             }
 
             h3 {

@@ -209,6 +209,16 @@ address {
   align-items: center;
   border-bottom: 2px solid silver;
 }
+@media (max-width: 500px) {
+  #homepage .title-info {
+    background-color: white;
+    background-image: url('../img/mobile-bg-img.jpg');
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 150px 0;
+    height: 1000px;
+  }
+}
 #homepage .title-info .opaque-box {
   display: flex;
   flex-direction: column;
@@ -234,6 +244,18 @@ address {
 #homepage .title-info .opaque-box .location-info p {
   padding: 5px 0;
 }
+#homepage .title-info img {
+  display: none;
+}
+@media (max-width: 500px) {
+  #homepage .title-info img {
+    display: block;
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+    border: 1px solid silver;
+  }
+}
 #homepage .home-info {
   padding: 200px 0;
   display: flex;
@@ -247,6 +269,11 @@ address {
 @media (max-width: 800px) {
   #homepage .home-info div {
     width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  #homepage .home-info div {
+    width: 80%;
   }
 }
 #homepage .home-info div h3 {
@@ -268,6 +295,11 @@ address {
     width: 70%;
   }
 }
+@media (max-width: 500px) {
+  #rsvp-page {
+    width: 80%;
+  }
+}
 #rsvp-page p {
   padding-bottom: 10px;
 }
@@ -287,6 +319,11 @@ address {
 @media (max-width: 800px) {
   #in-person-page div {
     width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  #in-person-page div {
+    width: 80%;
   }
 }
 #in-person-page div h3 {
@@ -313,6 +350,11 @@ address {
 @media (max-width: 800px) {
   #livestream-page div {
     width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  #livestream-page div {
+    width: 80%;
   }
 }
 #livestream-page div h3 {
@@ -344,6 +386,11 @@ address {
     width: 70%;
   }
 }
+@media (max-width: 500px) {
+  #gifts-page div {
+    width: 80%;
+  }
+}
 #gifts-page div h3 {
   padding-bottom: 20px;
 }
@@ -360,6 +407,11 @@ address {
 @media (max-width: 800px) {
   #gifts-page p {
     width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  #gifts-page p {
+    width: 80%;
   }
 }
 #gifts-page a {
@@ -411,7 +463,13 @@ address {
 }
 footer {
   background-color: whitesmoke;
-  padding: 100px;
+  padding: 100px 0;
+  width: 50%;
+}
+@media (max-width: 500px) {
+  footer {
+    width: 80%;
+  }
 }
 footer p {
   padding: 10px 0;
