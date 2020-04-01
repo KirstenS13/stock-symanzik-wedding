@@ -234,6 +234,11 @@ img {
 #homepage .home-info div {
   width: 50%;
 }
+@media (max-width: 800px) {
+  #homepage .home-info div {
+    width: 70%;
+  }
+}
 #homepage .home-info div h3 {
   padding-bottom: 20px;
 }
@@ -245,6 +250,13 @@ img {
   padding: 200px 3%;
   border-bottom: 2px solid silver;
   scroll-behavior: smooth;
+  width: 50%;
+  margin: 0 auto;
+}
+@media (max-width: 800px) {
+  #rsvp-page {
+    width: 70%;
+  }
 }
 #rsvp-page p {
   padding-bottom: 10px;
@@ -261,6 +273,11 @@ img {
 }
 #in-person-page div {
   width: 50%;
+}
+@media (max-width: 800px) {
+  #in-person-page div {
+    width: 70%;
+  }
 }
 #in-person-page div h3 {
   padding-bottom: 20px;
@@ -282,6 +299,11 @@ img {
 }
 #livestream-page div {
   width: 50%;
+}
+@media (max-width: 800px) {
+  #livestream-page div {
+    width: 70%;
+  }
 }
 #livestream-page div h3 {
   padding-bottom: 20px;
@@ -307,6 +329,11 @@ img {
 #gifts-page div {
   width: 50%;
 }
+@media (max-width: 800px) {
+  #gifts-page div {
+    width: 70%;
+  }
+}
 #gifts-page div h3 {
   padding-bottom: 20px;
 }
@@ -319,6 +346,11 @@ img {
 #gifts-page p {
   width: 50%;
   padding-bottom: 40px;
+}
+@media (max-width: 800px) {
+  #gifts-page p {
+    width: 70%;
+  }
 }
 #gifts-page a {
   padding: 1%;
