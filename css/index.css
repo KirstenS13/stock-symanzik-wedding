@@ -177,7 +177,9 @@ address {
 @media (max-width: 500px) {
   .navbar nav {
     flex-direction: column;
-    width: 40%;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 100px;
     margin: 0 auto;
   }
 }
