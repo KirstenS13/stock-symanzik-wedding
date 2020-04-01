@@ -333,9 +333,9 @@ h2, h3, .location-info {
   padding: 200px 3%;
   border-bottom: 2px solid silver;
   scroll-behavior: smooth;
-  /* h2, p {
-        font-family: @main-font;
-    } */
+}
+#rsvp-page p {
+  padding-bottom: 10px;
 }
 #in-person-page {
   background-color: whitesmoke;
@@ -445,8 +445,8 @@ h2, h3, .location-info {
   border: 2px solid silver;
 }
 #gifts-page a:hover {
-  border: 2px solid maroon;
-  color: maroon;
+  border: 2px solid #660000;
+  color: #660000;
 }
 #pics-page {
   background-color: white;
