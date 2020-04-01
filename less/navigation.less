@@ -1,5 +1,5 @@
 .navbar {
-    padding: 20px 7%;
+    padding: 20px 0;
     background-color: rgba(255, 255, 255, 0.5);
     border-bottom: 2px solid @border-color;
 
@@ -9,7 +9,7 @@
     
     nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         scroll-behavior: smooth;
 
         @media @mobile {
@@ -19,7 +19,7 @@
         }
     
         a {
-            padding: 1%;
+            padding: 7px 1%;
             font-size: 2rem;
             text-decoration: none;
             color: black;
@@ -28,8 +28,8 @@
         }
 
         a:hover {
-            color: #660000;
             background-color: @background-color;
+            outline: 2px solid @border-color;
         }
     }
 }
