@@ -161,16 +161,6 @@ a,
 address {
   font-size: 1.6rem;
 }
-img {
-  display: inline-block;
-  height: auto;
-  width: 500px;
-}
-@media (max-width: 500px) {
-  img {
-    width: 400px;
-  }
-}
 .navbar {
   padding: 20px 7%;
   background-color: rgba(255, 255, 255, 0.5);
@@ -397,6 +387,17 @@ img {
   justify-content: space-evenly;
   align-items: baseline;
   padding: 20px 0;
+}
+#pics-page .collage img {
+  display: inline-block;
+  height: auto;
+  width: 500px;
+  padding-bottom: 2px;
+}
+@media (max-width: 500px) {
+  #pics-page .collage img {
+    width: 400px;
+  }
 }
 #pics-page .collage1,
 #pics-page .collage2 {
