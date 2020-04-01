@@ -252,12 +252,14 @@ nav {
 .navbar nav {
   display: flex;
   justify-content: space-between;
+  scroll-behavior: smooth;
 }
 .navbar nav a {
   padding: 1%;
   font-size: 2rem;
   text-decoration: none;
   color: black;
+  scroll-behavior: smooth;
 }
 .navbar nav a:hover {
   color: #660000;
@@ -273,12 +275,13 @@ h2, h3, .location-info {
 }
 
 */
-.homepage {
+#homepage {
   background-color: whitesmoke;
   margin-bottom: 20px;
   border-bottom: 2px solid silver;
+  scroll-behavior: smooth;
 }
-.homepage .title-info {
+#homepage .title-info {
   background-image: url('../img/sample-img19.jpg');
   height: 900px;
   background-size: cover;
@@ -287,7 +290,7 @@ h2, h3, .location-info {
   align-items: center;
   border-bottom: 2px solid silver;
 }
-.homepage .title-info .opaque-box {
+#homepage .title-info .opaque-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -297,43 +300,44 @@ h2, h3, .location-info {
   height: 250px;
   background-color: rgba(255, 255, 255, 0.6);
 }
-.homepage .title-info .opaque-box h2 {
+#homepage .title-info .opaque-box h2 {
   font-size: 4.1rem;
 }
-.homepage .title-info .opaque-box .location-info {
+#homepage .title-info .opaque-box .location-info {
   font-size: 1.9rem;
 }
-.homepage .title-info .opaque-box .location-info p {
+#homepage .title-info .opaque-box .location-info p {
   padding: 5px 0;
 }
-.homepage .home-info {
+#homepage .home-info {
   padding: 200px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-.homepage .home-info div {
+#homepage .home-info div {
   width: 50%;
   /* p {
                 font-family: @main-font;
             } */
 }
-.homepage .home-info div h3 {
+#homepage .home-info div h3 {
   padding-bottom: 20px;
 }
-.homepage .home-info .para2 {
+#homepage .home-info .para2 {
   padding: 40px 0;
 }
-.rsvp-page {
+#rsvp-page {
   background-color: white;
   padding: 200px 3%;
   border-bottom: 2px solid silver;
+  scroll-behavior: smooth;
   /* h2, p {
         font-family: @main-font;
     } */
 }
-.in-person-page {
+#in-person-page {
   background-color: whitesmoke;
   padding: 200px 3%;
   display: flex;
@@ -341,66 +345,69 @@ h2, h3, .location-info {
   align-items: center;
   justify-content: space-evenly;
   border-bottom: 2px solid silver;
+  scroll-behavior: smooth;
   /* h2 {
         font-family: @main-font;
     } */
 }
-.in-person-page div {
+#in-person-page div {
   width: 50%;
   /* p {
             font-family: @main-font;
         } */
 }
-.in-person-page div h3 {
+#in-person-page div h3 {
   padding-bottom: 20px;
 }
-.in-person-page .main-info p {
+#in-person-page .main-info p {
   padding: 10px 0;
 }
-.in-person-page .hotel-info {
+#in-person-page .hotel-info {
   padding: 40px 0;
 }
-.livestream-page {
+#livestream-page {
   background-color: white;
   padding: 200px 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-bottom: 2px solid silver;
+  scroll-behavior: smooth;
   /*  h2 {
         font-family: @main-font;
     } */
 }
-.livestream-page div {
+#livestream-page div {
   width: 50%;
   /* p {
             font-family: @main-font;
         } */
 }
-.livestream-page div h3 {
+#livestream-page div h3 {
   padding-bottom: 20px;
 }
-.livestream-page .para2 {
+#livestream-page .para2 {
   padding: 40px 0;
 }
-.livestream-page .para3 {
+#livestream-page .para3 {
   padding-bottom: 40px;
 }
-.livestream-page .livestream p {
+#livestream-page .livestream p {
   width: 100%;
 }
-.gifts-page {
+#gifts-page {
   background-color: whitesmoke;
   padding: 200px 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-bottom: 2px solid silver;
+  scroll-behavior: smooth;
   /* h2 {
         font-family: @main-font;
     } */
 }
-.gifts-page div {
+#gifts-page div {
   width: 50%;
   /* display: flex;
         flex-direction: column;
@@ -413,23 +420,23 @@ h2, h3, .location-info {
             // margin-left: 40%;
         } */
 }
-.gifts-page div h3 {
+#gifts-page div h3 {
   padding-bottom: 20px;
 }
-.gifts-page div li {
+#gifts-page div li {
   list-style: disc inside;
 }
-.gifts-page .list2 {
+#gifts-page .list2 {
   padding: 40px 0;
   /*  ul {
             margin-left: 25%;
         } */
 }
-.gifts-page p {
+#gifts-page p {
   width: 50%;
   padding-bottom: 40px;
 }
-.gifts-page a {
+#gifts-page a {
   padding: 1%;
   font-size: 2rem;
   text-decoration: none;
@@ -437,30 +444,31 @@ h2, h3, .location-info {
   background-color: white;
   border: 2px solid silver;
 }
-.gifts-page a:hover {
+#gifts-page a:hover {
   border: 2px solid maroon;
   color: maroon;
 }
-.pics-page {
+#pics-page {
   background-color: white;
   padding: 200px 3%;
   border-bottom: 2px solid silver;
+  scroll-behavior: smooth;
   /* h2, h3 {
         font-family: @main-font;
     } */
 }
-.pics-page h3 {
+#pics-page h3 {
   padding-bottom: 20px;
 }
-.pics-page .collage {
+#pics-page .collage {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: baseline;
   padding: 20px 0;
 }
-.pics-page .collage1,
-.pics-page .collage2 {
+#pics-page .collage1,
+#pics-page .collage2 {
   padding-bottom: 80px;
 }
 footer {
