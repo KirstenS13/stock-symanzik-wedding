@@ -166,6 +166,10 @@ a,
 address {
   font-size: 1.6rem;
 }
+input,
+label {
+  display: inline-block;
+}
 .navbar {
   padding: 20px 0;
   background-color: rgba(255, 255, 255, 0.5);
