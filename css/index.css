@@ -136,15 +136,19 @@ html {
 h1 {
   display: none;
 }
-h2,
-h3,
-h4,
 p,
 li,
 address,
 a {
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'EB Garamond', serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  font-family: 'Tangerine', cursive;
 }
 h2 {
   font-size: 2.8rem;
@@ -242,7 +246,6 @@ label {
 }
 #homepage .title-info .opaque-box h2 {
   font-size: 4.1rem;
-  font-family: 'Times New Roman', Times, serif;
 }
 #homepage .title-info .opaque-box .location-info {
   font-size: 1.9rem;
