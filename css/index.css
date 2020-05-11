@@ -170,9 +170,12 @@ a,
 address {
   font-size: 1.7rem;
 }
-input,
-label {
+/* input, label {
   display: inline-block;
+} */
+.text-block {
+  width: 40%;
+  text-align: justify;
 }
 .navbar {
   padding: 20px 0;
@@ -271,22 +274,22 @@ label {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-}
-#homepage .home-info div {
-  width: 50%;
-}
-@media (max-width: 800px) {
-  #homepage .home-info div {
-    width: 70%;
-  }
-}
-@media (max-width: 500px) {
-  #homepage .home-info div {
-    width: 80%;
-  }
-}
-#homepage .home-info div h3 {
-  padding-bottom: 20px;
+  /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
+  /* div {
+            width: 50%;
+
+            @media @tablet {
+                width: 70%;
+            }
+
+            @media @mobile {
+                width: 80%;
+            }
+
+            h3 {
+                padding-bottom: 20px;
+            }
+        } */
 }
 #homepage .home-info .para2 {
   padding: 40px 0;
@@ -297,6 +300,10 @@ label {
   border-bottom: 2px solid silver;
   width: 50%;
   margin: 0 auto;
+  /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
+  /* p {
+        padding-bottom: 10px;
+    } */
 }
 @media (max-width: 800px) {
   #rsvp-page {
@@ -307,9 +314,6 @@ label {
   #rsvp-page {
     width: 80%;
   }
-}
-#rsvp-page p {
-  padding-bottom: 10px;
 }
 #in-person-page {
   background-color: whitesmoke;
@@ -320,22 +324,22 @@ label {
   justify-content: space-evenly;
   border-bottom: 2px solid silver;
   scroll-behavior: smooth;
-}
-#in-person-page div {
-  width: 50%;
-}
-@media (max-width: 800px) {
-  #in-person-page div {
-    width: 70%;
-  }
-}
-@media (max-width: 500px) {
-  #in-person-page div {
-    width: 80%;
-  }
-}
-#in-person-page div h3 {
-  padding-bottom: 20px;
+  /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
+  /* div {
+        width: 50%;
+
+        @media @tablet {
+            width: 70%;
+        }
+
+        @media @mobile {
+            width: 80%;
+        }
+
+        h3 {
+            padding-bottom: 20px;
+        }
+    } */
 }
 #in-person-page .main-info p {
   padding: 10px 0;
@@ -350,22 +354,22 @@ label {
   flex-direction: column;
   align-items: center;
   border-bottom: 2px solid silver;
-}
-#livestream-page div {
-  width: 50%;
-}
-@media (max-width: 800px) {
-  #livestream-page div {
-    width: 70%;
-  }
-}
-@media (max-width: 500px) {
-  #livestream-page div {
-    width: 80%;
-  }
-}
-#livestream-page div h3 {
-  padding-bottom: 20px;
+  /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
+  /* div {
+        width: 50%;
+
+        @media @tablet {
+            width: 70%;
+        }
+
+        @media @mobile {
+            width: 80%;
+        }
+
+        h3 {
+            padding-bottom: 20px;
+        }
+    } */
 }
 #livestream-page .para2 {
   padding: 40px 0;
@@ -383,6 +387,20 @@ label {
   flex-direction: column;
   align-items: center;
   border-bottom: 2px solid silver;
+  /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
+  /* p {
+        width: 50%;
+        padding-bottom: 40px;
+
+        @media @tablet {
+            width: 70%;
+        }
+
+        @media @mobile {
+            width: 80%;
+        }
+
+    } */
 }
 #gifts-page div {
   width: 50%;
@@ -405,20 +423,6 @@ label {
 }
 #gifts-page .list2 {
   padding: 40px 0;
-}
-#gifts-page p {
-  width: 50%;
-  padding-bottom: 40px;
-}
-@media (max-width: 800px) {
-  #gifts-page p {
-    width: 70%;
-  }
-}
-@media (max-width: 500px) {
-  #gifts-page p {
-    width: 80%;
-  }
 }
 #gifts-page a {
   padding: 12px 1%;
