@@ -156,7 +156,10 @@ h2 {
 }
 h3 {
   font-size: 4.5rem;
-  padding: 15px 0 20px 0;
+  padding: 20px;
+  background-color: floralwhite;
+  outline: 2px solid silver;
+  display: inline-block;
 }
 h4 {
   font-size: 4rem;
@@ -210,11 +213,11 @@ address {
   color: black;
 }
 .navbar nav a:hover {
-  background-color: whitesmoke;
+  background-color: ivory;
   outline: 2px solid silver;
 }
 #homepage {
-  background-color: whitesmoke;
+  background-color: ivory;
   margin-bottom: 20px;
   border-bottom: 2px solid silver;
 }
@@ -229,7 +232,7 @@ address {
 }
 @media (max-width: 500px) {
   #homepage .title-info {
-    background-color: white;
+    background-color: ghostwhite;
     background-image: url('../img/mobile-bg-img.jpg');
     flex-direction: column;
     justify-content: space-around;
@@ -300,15 +303,17 @@ address {
   padding: 40px 0;
 }
 #rsvp-page {
-  background-color: white;
+  background-color: ghostwhite;
   padding: 200px 3%;
   border-bottom: 2px solid silver;
-  width: 50%;
-  margin: 0 auto;
   /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
   /* p {
         padding-bottom: 10px;
     } */
+}
+#rsvp-page .outline-box {
+  width: 50%;
+  margin: 0 auto;
 }
 @media (max-width: 800px) {
   #rsvp-page {
@@ -321,7 +326,7 @@ address {
   }
 }
 #in-person-page {
-  background-color: whitesmoke;
+  background-color: ivory;
   padding: 200px 3%;
   display: flex;
   flex-direction: column;
@@ -353,7 +358,7 @@ address {
   padding: 40px 0;
 }
 #livestream-page {
-  background-color: white;
+  background-color: ghostwhite;
   padding: 200px 3%;
   display: flex;
   flex-direction: column;
@@ -386,7 +391,7 @@ address {
   width: 100%;
 }
 #gifts-page {
-  background-color: whitesmoke;
+  background-color: ivory;
   padding: 200px 3%;
   display: flex;
   flex-direction: column;
@@ -434,7 +439,7 @@ address {
   font-size: 2rem;
   text-decoration: none;
   color: black;
-  background-color: white;
+  background-color: ghostwhite;
   border: 2px solid silver;
 }
 @media (max-width: 500px) {
@@ -446,7 +451,7 @@ address {
   border: 2px solid #660000;
 }
 #pics-page {
-  background-color: white;
+  background-color: ghostwhite;
   padding: 200px 3%;
   border-bottom: 2px solid silver;
 }
@@ -476,7 +481,7 @@ address {
   padding-bottom: 80px;
 }
 footer {
-  background-color: whitesmoke;
+  background-color: ivory;
   padding: 100px 0;
 }
 footer p {
