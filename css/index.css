@@ -159,12 +159,13 @@ h3 {
   padding: 15px 0 20px 0;
 }
 h4 {
-  font-size: 2.7rem;
+  font-size: 2.9rem;
+  padding: 10px 0;
 }
 p,
 li {
-  font-size: 1.7rem;
-  line-height: 1.6;
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
 a,
 address {
@@ -175,7 +176,6 @@ address {
 } */
 .text-block {
   width: 40%;
-  text-align: justify;
 }
 .navbar {
   padding: 20px 0;
