@@ -436,6 +436,18 @@ address {
         padding-bottom: 40px;
     } */
 }
+#livestream-page .para2 .flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+}
+#livestream-page .para2 .flex-container h4 {
+  width: 15%;
+}
+#livestream-page .para2 .flex-container p {
+  width: 75%;
+  text-align: left;
+}
 #livestream-page .livestream p {
   width: 100%;
 }
