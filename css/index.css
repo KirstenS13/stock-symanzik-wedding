@@ -1,5 +1,6 @@
 .button {
   padding: 12px 1%;
+  margin: 20px;
   font-size: 2rem;
   text-decoration: none;
   color: black;
@@ -168,15 +169,12 @@ h4 {
 }
 h2 {
   font-size: 5.5rem;
-  padding-bottom: 30px;
 }
 h3 {
   font-size: 4.5rem;
-  padding: 15px 0 20px 0;
 }
 h4 {
   font-size: 4rem;
-  padding: 10px 0;
 }
 p,
 li {
@@ -192,6 +190,8 @@ address {
 } */
 .text-block {
   width: 50%;
+  padding: 20px 0;
+  border: 1px solid purple;
 }
 @media (max-width: 800px) {
   .text-block {
@@ -199,7 +199,6 @@ address {
   }
 }
 .navbar {
-  padding: 20px 0;
   background-color: rgba(255, 255, 255, 0.5);
   border-bottom: 2px solid silver;
   position: fixed;
@@ -220,7 +219,6 @@ address {
   }
 }
 .navbar nav a {
-  padding: 7px 1%;
   font-size: 2rem;
   text-decoration: none;
   color: black;
@@ -248,7 +246,6 @@ address {
     background-image: url('../img/mobile-bg-img.jpg');
     flex-direction: column;
     justify-content: space-around;
-    padding: 150px 0;
     height: 1000px;
   }
 }
@@ -272,9 +269,9 @@ address {
 }
 #homepage .title-info .opaque-box .location-info {
   font-size: 1.9rem;
-}
-#homepage .title-info .opaque-box .location-info p {
-  padding: 5px 0;
+  /* p {
+                    padding: 5px 0;
+                } */
 }
 #homepage .title-info img {
   display: none;
@@ -289,7 +286,6 @@ address {
   }
 }
 #homepage .home-info {
-  padding: 200px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -310,13 +306,12 @@ address {
                 padding-bottom: 20px;
             }
         } */
-}
-#homepage .home-info .para2 {
-  padding: 40px 0;
+  /* .para2 {
+            padding: 40px 0;
+        } */
 }
 #rsvp-page {
   background-color: white;
-  padding: 200px 3%;
   border-bottom: 2px solid silver;
   display: flex;
   flex-direction: column;
@@ -345,6 +340,7 @@ address {
 }
 #rsvp-page a {
   padding: 12px 1%;
+  margin: 20px;
   font-size: 2rem;
   text-decoration: none;
   color: black;
@@ -361,7 +357,6 @@ address {
 }
 #in-person-page {
   background-color: whitesmoke;
-  padding: 200px 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -384,16 +379,18 @@ address {
             padding-bottom: 20px;
         }
     } */
-}
-#in-person-page .main-info p {
-  padding: 10px 0;
-}
-#in-person-page .hotel-info {
-  padding: 40px 0;
+  /* .main-info {
+        p {
+            padding: 10px 0;
+        }
+    }
+
+    .hotel-info {
+        padding: 40px 0;
+    } */
 }
 #livestream-page {
   background-color: white;
-  padding: 200px 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -414,23 +411,26 @@ address {
             padding-bottom: 20px;
         }
     } */
-}
-#livestream-page .para2 {
-  padding: 40px 0;
-}
-#livestream-page .para3 {
-  padding-bottom: 40px;
+  /* .para2 {
+        padding: 40px 0;
+    }
+
+    .para3 {
+        padding-bottom: 40px;
+    } */
 }
 #livestream-page .livestream p {
   width: 100%;
 }
 #gifts-page {
   background-color: whitesmoke;
-  padding: 200px 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-bottom: 2px solid silver;
+  /*  .list2 {
+        padding: 40px 0;
+    } */
   /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
   /* p {
         width: 50%;
@@ -451,6 +451,9 @@ address {
 }
 #gifts-page div {
   width: 50%;
+  /* h3 {
+            padding-bottom: 20px;
+        } */
 }
 @media (max-width: 800px) {
   #gifts-page div {
@@ -462,17 +465,12 @@ address {
     width: 80%;
   }
 }
-#gifts-page div h3 {
-  padding-bottom: 20px;
-}
 #gifts-page div li {
   list-style: disc inside;
 }
-#gifts-page .list2 {
-  padding: 40px 0;
-}
 #gifts-page a {
   padding: 12px 1%;
+  margin: 20px;
   font-size: 2rem;
   text-decoration: none;
   color: black;
@@ -499,45 +497,40 @@ address {
 }
 #pics-page {
   background-color: white;
-  padding: 200px 3%;
   border-bottom: 2px solid silver;
-}
-#pics-page h3 {
-  padding-bottom: 20px;
+  /* h3 {
+        padding-bottom: 20px;
+    } */
+  /* .collage1, .collage2 {
+        padding-bottom: 80px;
+    } */
 }
 #pics-page .collage {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: baseline;
-  padding: 20px 0;
 }
 #pics-page .collage img {
   display: inline-block;
   height: auto;
   width: 500px;
-  padding-bottom: 2px;
 }
 @media (max-width: 500px) {
   #pics-page .collage img {
     width: 400px;
   }
 }
-#pics-page .collage1,
-#pics-page .collage2 {
-  padding-bottom: 80px;
-}
 footer {
   background-color: whitesmoke;
-  padding: 100px 0;
-}
-footer p {
-  padding: 10px 0;
+  /* p {
+        padding: 10px 0;
+    } */
 }
 footer .img-creds {
   width: 80%;
   margin: 0 auto;
-}
-footer .img-creds p {
-  padding: 10px 0;
+  /* p {
+            padding: 10px 0;
+        } */
 }
