@@ -190,7 +190,7 @@ address {
 } */
 .text-block {
   width: 50%;
-  padding: 20px 0;
+  padding: 40px 0;
   border: 1px solid purple;
 }
 @media (max-width: 800px) {
