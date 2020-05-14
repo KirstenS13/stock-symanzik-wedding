@@ -7,7 +7,7 @@
     align-items: center;
     border-bottom: 2px solid @border-color;
 
-    div {
+    .list-container {
         width: 50%;
 
         @media @tablet {
@@ -24,6 +24,40 @@
 
         li {
             list-style: disc inside;
+        }
+
+        
+
+        
+    }
+
+    .use-list {
+
+        h3 {
+            padding-bottom: 30px;
+        }
+
+        .gift-list-container {
+            //border: 1px solid green;
+
+            display: flex;
+            justify-content: space-around;
+
+            .gift-list {
+                //border: 1px solid goldenrod;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                ul {
+                    //border: 1px solid goldenrod;
+
+                    height: 120px;
+                    margin-top: 20px;
+                }
+            }
         }
     }
 

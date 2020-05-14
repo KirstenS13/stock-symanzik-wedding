@@ -454,24 +454,41 @@ address {
         border: 2px solid #660000;
     } */
 }
-#gifts-page div {
+#gifts-page .list-container {
   width: 50%;
   /* h3 {
             padding-bottom: 20px;
         } */
 }
 @media (max-width: 800px) {
-  #gifts-page div {
+  #gifts-page .list-container {
     width: 70%;
   }
 }
 @media (max-width: 500px) {
-  #gifts-page div {
+  #gifts-page .list-container {
     width: 80%;
   }
 }
-#gifts-page div li {
+#gifts-page .list-container li {
   list-style: disc inside;
+}
+#gifts-page .use-list h3 {
+  padding-bottom: 30px;
+}
+#gifts-page .use-list .gift-list-container {
+  display: flex;
+  justify-content: space-around;
+}
+#gifts-page .use-list .gift-list-container .gift-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#gifts-page .use-list .gift-list-container .gift-list ul {
+  height: 120px;
+  margin-top: 20px;
 }
 #gifts-page a {
   padding: 12px 1%;
