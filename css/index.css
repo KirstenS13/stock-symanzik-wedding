@@ -395,6 +395,16 @@ address {
         padding: 40px 0;
     } */
 }
+#in-person-page .contact-info .flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+#in-person-page .contact-info .flex-container .contact-card {
+  width: 30%;
+  overflow-wrap: break-word;
+}
 #livestream-page {
   background-color: white;
   padding: 250px 0;
