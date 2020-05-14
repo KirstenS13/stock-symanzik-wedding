@@ -286,6 +286,7 @@ address {
   }
 }
 #homepage .home-info {
+  padding: 250px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -312,6 +313,7 @@ address {
 }
 #rsvp-page {
   background-color: white;
+  padding: 250px 0;
   border-bottom: 2px solid silver;
   display: flex;
   flex-direction: column;
@@ -357,6 +359,7 @@ address {
 }
 #in-person-page {
   background-color: whitesmoke;
+  padding: 250px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -391,6 +394,7 @@ address {
 }
 #livestream-page {
   background-color: white;
+  padding: 250px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -424,6 +428,7 @@ address {
 }
 #gifts-page {
   background-color: whitesmoke;
+  padding: 250px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -497,6 +502,7 @@ address {
 }
 #pics-page {
   background-color: white;
+  padding: 250px 0;
   border-bottom: 2px solid silver;
   /* h3 {
         padding-bottom: 20px;
@@ -523,6 +529,7 @@ address {
 }
 footer {
   background-color: whitesmoke;
+  padding: 250px 0;
   /* p {
         padding: 10px 0;
     } */
