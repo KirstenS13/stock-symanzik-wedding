@@ -231,7 +231,6 @@ address {
 }
 #homepage {
   background-color: whitesmoke;
-  margin-bottom: 20px;
   border-bottom: 2px solid silver;
 }
 #homepage .title-info {
@@ -319,14 +318,20 @@ address {
   background-color: white;
   padding: 200px 3%;
   border-bottom: 2px solid silver;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* .rsvp-info {
+        width: 50%;
+        margin: 0 auto;
+
+        border: 1px solid purple;
+    } */
   /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
   /* p {
         padding-bottom: 10px;
     } */
-}
-#rsvp-page .outline-box {
-  width: 50%;
-  margin: 0 auto;
 }
 @media (max-width: 800px) {
   #rsvp-page {
