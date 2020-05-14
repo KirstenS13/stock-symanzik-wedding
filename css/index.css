@@ -243,11 +243,21 @@ address {
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid silver;
+  /* img {
+            display: none;
+
+            @media @mobile {
+                display: block;
+                width: 400px;
+                height: auto;
+                border-radius: 30px;
+                border: 1px solid @border-color;
+            }
+        } */
 }
 @media (max-width: 500px) {
   #homepage .title-info {
     background-color: white;
-    background-image: url('../img/mobile-bg-img.jpg');
     flex-direction: column;
     justify-content: space-around;
     height: 1000px;
@@ -276,18 +286,6 @@ address {
   /* p {
                     padding: 5px 0;
                 } */
-}
-#homepage .title-info img {
-  display: none;
-}
-@media (max-width: 500px) {
-  #homepage .title-info img {
-    display: block;
-    width: 400px;
-    height: auto;
-    border-radius: 30px;
-    border: 1px solid silver;
-  }
 }
 #homepage .home-info {
   padding: 250px 0;
