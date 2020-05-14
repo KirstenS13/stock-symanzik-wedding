@@ -202,6 +202,7 @@ address {
   }
 }
 .navbar {
+  padding: 20px 0;
   background-color: rgba(255, 255, 255, 0.5);
   border-bottom: 2px solid silver;
   position: fixed;
@@ -214,7 +215,6 @@ address {
 }
 @media (max-width: 500px) {
   .navbar nav {
-    flex-direction: column;
     flex-wrap: wrap;
     width: 70%;
     height: 100px;
@@ -222,6 +222,7 @@ address {
   }
 }
 .navbar nav a {
+  padding: 7px;
   font-size: 2rem;
   text-decoration: none;
   color: black;
