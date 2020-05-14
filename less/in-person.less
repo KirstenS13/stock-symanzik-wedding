@@ -47,11 +47,20 @@
 
             padding-top: 10px;
 
+            @media @mobile {
+                flex-direction: column;
+            }
+
             .contact-card {
                 //border: 1px solid blue;
 
                 width: 30%;
                 overflow-wrap: break-word;
+
+                @media @mobile {
+                    width: 100%;
+                    padding: 20px 0;
+                }
             }
         }
     }

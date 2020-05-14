@@ -201,6 +201,11 @@ address {
     width: 60%;
   }
 }
+@media (max-width: 500px) {
+  .text-block {
+    width: 90%;
+  }
+}
 .navbar {
   padding: 20px 0;
   background-color: rgba(255, 255, 255, 0.5);
@@ -327,20 +332,17 @@ address {
 
         border: 1px solid purple;
     } */
+  /* @media @tablet {
+        width: 70%;
+    }
+
+    @media @mobile {
+        width: 80%;
+    } */
   /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
   /* p {
         padding-bottom: 10px;
     } */
-}
-@media (max-width: 800px) {
-  #rsvp-page {
-    width: 70%;
-  }
-}
-@media (max-width: 500px) {
-  #rsvp-page {
-    width: 80%;
-  }
 }
 #rsvp-page a {
   padding: 12px;
@@ -400,9 +402,20 @@ address {
   flex-wrap: wrap;
   padding-top: 10px;
 }
+@media (max-width: 500px) {
+  #in-person-page .contact-info .flex-container {
+    flex-direction: column;
+  }
+}
 #in-person-page .contact-info .flex-container .contact-card {
   width: 30%;
   overflow-wrap: break-word;
+}
+@media (max-width: 500px) {
+  #in-person-page .contact-info .flex-container .contact-card {
+    width: 100%;
+    padding: 20px 0;
+  }
 }
 #livestream-page {
   background-color: white;
