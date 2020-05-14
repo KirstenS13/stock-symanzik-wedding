@@ -1,5 +1,5 @@
 .button {
-  padding: 12px 1%;
+  padding: 12px;
   margin: 20px;
   font-size: 2rem;
   text-decoration: none;
@@ -341,7 +341,7 @@ address {
   }
 }
 #rsvp-page a {
-  padding: 12px 1%;
+  padding: 12px;
   margin: 20px;
   font-size: 2rem;
   text-decoration: none;
@@ -491,7 +491,7 @@ address {
   margin-top: 20px;
 }
 #gifts-page a {
-  padding: 12px 1%;
+  padding: 12px;
   margin: 20px;
   font-size: 2rem;
   text-decoration: none;
