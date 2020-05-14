@@ -499,12 +499,12 @@ address {
 }
 @media (max-width: 800px) {
   #gifts-page .list-container {
-    width: 70%;
+    width: 60%;
   }
 }
 @media (max-width: 500px) {
   #gifts-page .list-container {
-    width: 80%;
+    width: 90%;
   }
 }
 #gifts-page .list-container li {
@@ -517,6 +517,11 @@ address {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 500px) {
+  #gifts-page .use-list .gift-list-container {
+    flex-direction: column;
+  }
+}
 #gifts-page .use-list .gift-list-container .gift-list {
   display: flex;
   flex-direction: column;
@@ -525,6 +530,16 @@ address {
 }
 #gifts-page .use-list .gift-list-container .gift-list ul {
   height: 120px;
+}
+@media (max-width: 500px) {
+  #gifts-page .use-list .gift-list-container .gift-list ul {
+    height: auto;
+  }
+}
+@media (max-width: 500px) {
+  #gifts-page .use-list .gift-list-container .wed-list {
+    padding-top: 20px;
+  }
 }
 #gifts-page a {
   padding: 12px;
