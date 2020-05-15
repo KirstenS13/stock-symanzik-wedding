@@ -396,11 +396,15 @@ address {
         padding: 40px 0;
     } */
 }
-#in-person-page .main-info {
+#in-person-page .hotel-info .grid-container {
   background-color: thistle;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-#in-person-page .hotel-info {
-  background-color: mistyrose;
+#in-person-page .hotel-info .grid-container .grid-item {
+  border: 1px solid goldenrod;
+  width: 49%;
 }
 #in-person-page .contact-info .flex-container {
   display: flex;

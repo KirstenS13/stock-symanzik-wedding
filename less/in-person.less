@@ -36,13 +36,20 @@
     .hotel-info {
         padding: 40px 0;
     } */
-
-    .main-info {
-        background-color: thistle;
-    }
-
     .hotel-info {
-        background-color: mistyrose;
+        .grid-container {
+            background-color: thistle;
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            .grid-item {
+                border: 1px solid goldenrod;
+
+                width: 49%;
+            }
+        }
     }
 
     .contact-info {
