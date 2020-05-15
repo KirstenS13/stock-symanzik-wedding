@@ -38,16 +38,36 @@
     } */
     .hotel-info {
         .grid-container {
-            background-color: thistle;
-
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-evenly;
+            justify-content: center;
+
+            padding: 20px 0;
 
             .grid-item {
-                border: 1px solid goldenrod;
-
                 width: 49%;
+                padding: 20px 0;
+            }
+
+            .item-1 {
+                border: @grid-item-border;
+            }
+
+            .item-2 {
+                border-top: @grid-item-border;
+                border-right: @grid-item-border;
+                border-bottom: @grid-item-border;
+            }
+
+            .item-3, .item-5 {
+                border-left: @grid-item-border;
+                border-bottom: @grid-item-border;
+                border-right: @grid-item-border;
+            }
+
+            .item-4, .item-6 {
+                border-right: @grid-item-border;
+                border-bottom: @grid-item-border;
             }
         }
     }
