@@ -1,36 +1,90 @@
 #gifts-page {
     background-color: @background-color;
-    padding: 200px 3%;
+    //padding: 200px 3%;
+    padding: @btwn-pg-space;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-bottom: 2px solid @border-color;
 
-    div {
+    .list-container {
         width: 50%;
 
         @media @tablet {
-            width: 70%;
+            width: 60%;
         }
 
         @media @mobile {
-            width: 80%;
+            width: 90%;
         }
 
-        h3 {
+        /* h3 {
             padding-bottom: 20px;
-        }
+        } */
 
         li {
             list-style: disc inside;
         }
+
+        
+
+        
     }
 
-    .list2 {
+    .use-list {
+
+        h3 {
+            padding-bottom: 30px;
+        }
+
+        .gift-list-container {
+            //border: 1px solid green;
+
+            display: flex;
+            justify-content: space-around;
+
+            @media @tablet {
+                flex-direction: column;
+            }
+
+            .gift-list {
+                //border: 1px solid goldenrod;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                @media @tablet {
+                    padding-top: 20px;
+                }
+
+                ul {
+                    //border: 1px solid goldenrod;
+
+                    height: 120px;
+                    //margin-top: 20px;
+
+                    @media @tablet {
+                        height: auto;
+                    }
+                }
+            }
+
+            .wed-list {
+                @media @mobile {
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+
+   /*  .list2 {
         padding: 40px 0;
-    }
+    } */
 
-    p {
+    /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
+    /* p {
         width: 50%;
         padding-bottom: 40px;
 
@@ -42,10 +96,12 @@
             width: 80%;
         }
 
-    }
+    } */
 
     a {
-        padding: 12px 1%;
+        .button();
+        
+        /* padding: 12px 1%;
         font-size: 2rem;
         text-decoration: none;
         color: black;
@@ -54,10 +110,10 @@
 
         @media @mobile {
             padding: 3%;
-        }
+        } */
     }
 
-    a:hover {
+   /*  a:hover {
         border: 2px solid #660000;
-    }
+    } */
 }

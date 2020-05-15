@@ -1,6 +1,5 @@
 #homepage {
     background-color: @background-color;
-    margin-bottom: 20px;
     border-bottom: 2px solid @border-color;
 
     .title-info {
@@ -17,10 +16,10 @@
 
         @media @mobile {
             background-color: @secondary-bg-color;
-            background-image: url('../img/mobile-bg-img.jpg');
+            //background-image: url('../img/mobile-bg-img.jpg');
             flex-direction: column;
             justify-content: space-around;
-            padding: 150px 0;
+            //padding: 150px 0;
             height: 1000px;
         }
 
@@ -32,10 +31,10 @@
 
             border: 2px solid @border-color;
 
-            width: 450px;
-            height: 250px;
+            width: 500px;
+            height: 300px;
 
-            background-color: rgba(255, 255, 255, 0.6);
+            background-color: rgba(255, 255, 255, 0.7);
 
             @media @mobile {
                 width: 400px;
@@ -43,20 +42,20 @@
             
 
             h2 {
-                font-size: 4.1rem;
+                font-size: 7rem;
                 //font-family: 'Times New Roman', Times, serif;
             }
 
             .location-info {
                 font-size: 1.9rem;
 
-                p {
+                /* p {
                     padding: 5px 0;
-                }
+                } */
             }
         }
 
-        img {
+        /* img {
             display: none;
 
             @media @mobile {
@@ -66,18 +65,20 @@
                 border-radius: 30px;
                 border: 1px solid @border-color;
             }
-        }
+        } */
     }
 
     .home-info {
-        padding: 200px 0;
+        //padding: 200px 0;
+        padding: @btwn-pg-space;
 
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
 
-        div {
+        /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
+        /* div {
             width: 50%;
 
             @media @tablet {
@@ -91,10 +92,10 @@
             h3 {
                 padding-bottom: 20px;
             }
-        }
+        } */
 
-        .para2 {
+        /* .para2 {
             padding: 40px 0;
-        }
+        } */
     }
 }

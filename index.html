@@ -17,6 +17,7 @@
     <header class='navbar'>
         <nav>
             <a href="#homepage">Home</a>
+            <a href="#home-info">About</a>
             <a href="#rsvp-page">RSVP</a>
             <a href="#in-person-page">Attendance</a>
             <a href="#livestream-page">Livestream</a>
@@ -35,35 +36,35 @@
                     <address>Goodrich, MI</address>
                 </div>
             </div>
-            <img src="img/sample-img19.jpg" alt="couple holding hands on the beach">
+            <!-- <img src="img/sample-img19.jpg" alt="couple holding hands on the beach"> -->
         </div>
     
-        <div class="home-info">
-            <div class="couple-info">
+        <div class="home-info" id="home-info">
+            <div class="couple-info text-block">
                 <h3>About the Couple</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia iure quaerat sapiente! Nobis perspiciatis laborum adipisci recusandae, quibusdam ex maxime, tenetur quae nulla, architecto porro iure consectetur. Cupiditate, sapiente sed!</p>
             </div>
-            <div class="para2">
+            <div class="para2 text-block">
                 <h3>Updates</h3>
-                <p>4.12.2020:</p>
+                <h4>4.12.2020:</h4>
                 <p>The wedding will still be continuing on June 13th at 4:00pm. We will be livestreaming the ceremony, holding a reception, and holding a larger gathering next year for all of our guests. Guests that feel comfortable traveling are still more than welcome to attend, please see ‘Should I go in person or watch the livestream?’ for more information.</p>
             </div>
-            <div class="para3">
+            <div class="para3 text-block">
                 <h3>Should I go in person or watch the livestream?</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nostrum tempore adipisci animi veritatis tempora repudiandae neque quod at pariatur nemo sapiente? Similique neque sint corporis ratione non deserunt consequuntur!</p>
+                <p>This depends on your personal circumstances and comfort level. First and foremost, if you don’t feel well, DON’T TRAVEL - though we want to see all our guests, your health is more important! We will be livestreaming the ceremony on this website so you’ll still be able to enjoy the celebrations from the comfort and safety of your own home. We will also be hosting a larger gathering in 2021 for all our guests.</p>
             </div>
         </div>
     </section>
     
     <section id="rsvp-page">
-        <div class="outline-box">
+        <!-- <div class="rsvp-info"> -->
             <h2>RSVP</h2>
             <!-- <p>Will You Be Able To Attend?</p>
             <p>Are there any accommodations (dietary, accessibility, etc) that we should take into account?</p>
             <p>Any other comments, questions, or concerns?</p>
             <p>Personal Info Input Boxes</p> -->
-            <p>Please fill out a survey to let us know if you are attending!</p>
-            <a href='https://docs.google.com/forms/d/e/1FAIpQLSewZ2Dyl5GP4VFWfncu2RO1mq1YWIITxTX7zyT7qAA42ngrNg/viewform?usp=sf_link'>Fill out Google Survey</a>
+            <p class='text-block'>Please fill out a survey to let us know if you are attending!</p>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLSewZ2Dyl5GP4VFWfncu2RO1mq1YWIITxTX7zyT7qAA42ngrNg/viewform?usp=sf_link' target='_blank' rel='noopener noreferrer'>Fill out Google Survey</a>
             <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSewZ2Dyl5GP4VFWfncu2RO1mq1YWIITxTX7zyT7qAA42ngrNg/viewform?embedded=true" width="640" height="959" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
             <!-- <form>
                 <label for="name">Your Name</label><br>
@@ -76,52 +77,108 @@
                 <input type="text"><br>
                 <input type="text">
             </form> -->
-        </div>
+        <!-- </div> -->
     </section>
 
     <section id="in-person-page">
         <h2>Attending In Person</h2>
-        <div class="main-info">
-            <p>Date, Time, Location, Address</p>
-            <p>Outdoors, dress code</p>
+        <div class="date-location text-block">
+            <h3>Where & When</h3>
+            <p>4:00 pm</p>
+            <p>Saturday, the thirteenth of June</p>
+            <p>Two Thousand and Twenty</p>
+            <p>1234 Strawberry Road</p>
+            <p>Atlas Township, MI</p>
         </div>
-        <div class="hotel-info">
+        <div class="outside-info text-block">
+            <p>The ceremony and reception will both be taking place outside. A tent will be on-site to provide shade throughout the evening as well as shelter in the event of rain.</p>
+            <p>As the time approaches, please see ‘Updates’ for up-to-date weather information.</p>
+        </div>
+        <div class="dresscode-info text-block">
+            <h3>Dresscode</h3>
+            <p>Guests are asked to dress formally (business casual, formal, etc.) but are encouraged to take into account that the ground may be uneven and the weather will be sunny, warm, and humid (average June temperatures range between 75-95F (25-35C) with 60-90% humidity).</p>
+        </div>
+        <div class="hotel-info text-block">
             <h3>Hotel Info</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt qui repellat quisquam est autem ea, doloribus, nisi error accusamus eveniet eaque libero quae veritatis. Quis sed veritatis porro suscipit quam!</p>
+            <p>For those of you travelling to our wedding who need a place to stay, we have rooms blocked at the Best Western Inn, Davison.</p>
+            <div class="grid-container">
+                <div class="grid-item item-1">
+                    <h4>Price per Night</h4>
+                    <p>$117.89+Tax</p>
+                </div>
+                <div class="grid-item item-2">
+                    <h4>Room Beds:</h4>
+                    <p>Double Queen</p>
+                </div>
+                <div class="grid-item item-3">
+                    <h4>Amenities</h4>
+                    <ul>
+                        <li>Complimentary Breakfast</li>
+                        <li>Free Parking</li>
+                        <li>Outdoor Pool</li>
+                        <li>WiFi</li>
+                    </ul>
+                </div>
+                <div class="grid-item item-4">
+                    <h4>Dates Reserved</h4>
+                    <p>3 Nights</p>
+                    <p>Check-In: Thursday, June 11th, 2020</p>
+                    <p>Check-Out: Sunday, June 14th, 2020</p>
+                </div>
+                <div class="grid-item item-5">
+                    <h4>How to Book</h4>
+                    <p>Call Best Western Davison at 810-658-2700 and ask to book a room under the Symanzik-Stock Wedding Block.</p>
+                </div>
+                <div class="grid-item item-6">
+                    <h4>Cancellation Policy</h4>
+                    <p>By 4pm, Day-Of</p>
+                </div>
+            </div>
+            <p>If we run out of blocked rooms or if you have a problem with the reservations, please call Mikayla or email Mikayla and David using the information below.</p>
         </div>
-        <div class="contact-info">
+        <div class="contact-info text-block">
             <h3>Contact Info</h3>
-            <address>
-                <h4>Post/Mail</h4>
-                <p>
-                    2967A N Weil St<br>
-                    Milwaukee, WI 53212<br>
-                    USA
-                </p>
-                <h4>Phone</h4>
-                <p>David: 1 (262) 664-5303</p>
-                <p>Mikayla: 1 (734) 709-4652</p>
-                <h4>Email</h4>
-                <p>symanzikstockwedding2020@gmail.com</p>
-            </address>
+            <div class="flex-container">
+                <div class="mail-card contact-card">
+                    <h4>Post/Mail</h4>
+                    <p>
+                        2967A N Weil St<br>
+                        Milwaukee, WI 53212<br>
+                        USA
+                    </p>
+                </div>
+                <div class="phone-card contact-card">
+                    <h4>Phone</h4>
+                    <p>David: 1 (262) 664-5303</p>
+                    <p>Mikayla: 1 (734) 709-4652</p>
+                </div>
+                <div class="email-card contact-card">
+                    <h4>Email</h4>
+                    <p>symanzikstockwedding2020@gmail.com</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="livestream-page">
         <h2>Attending Online</h2>
-        <div class="para1">
+        <div class="para1 text-block">
             <h3>What is a livestream?</h3>
             <p>A livestream is a video setup that allows viewers to witness the video as it is being recorded. What this means is that any of our guests navigating to this page will be able to witness, at the exact same time as our in-person attendees, the ceremony unfold. You will get to see all the funny, heartfelt moments at the same time as those sitting with us in Michigan - albeit from the comfort of your own home.</p>
         </div>
-        <div class="para2">
+        <div class="para2 text-block">
             <h3>How do I use it?</h3>
-            <p>To use the livestream there are two steps.</p>
-            <p>Step 1</p>
-            <p>Go online and find your way back to this page about 10 minutes before 4:00pm on Saturday, June 13th, 2020.</p>
-            <p>Step 2</p>
-            <p>Using your mouse, scroll to the bottom of this page. You should see a box - at this moment it shows a picture of our cats, Edmund (Black) and Lucy (Ginger) - when we start recording the livestream video will replace our cats</p>
+            <!-- <p>To use the livestream there are two steps.</p> -->
+            <div class="flex-container">
+                <h4>Step 1:</h4>
+                <p>Go online and find your way back to this page about 10 minutes before 4:00pm on Saturday, June 13th, 2020.</p>
+            </div>
+            <div class="flex-container">
+                <h4>Step 2:</h4>
+                <p>Using your mouse, scroll to the bottom of this page. You should see a box - at this moment it shows a picture of our cats, Edmund (Black) and Lucy (Ginger) - when we start recording the livestream video will replace our cats</p>
+            </div>
         </div>
-        <div class="para3">
+        <div class="para3 text-block">
             <h3>When will it be available?</h3>
             <p>The livestream will be available at 3:50pm, Saturday, June 13th, 2020. At the moment all you can see is a box with two adorable cats (our Edmund and Lucy). At 3:50pm on Saturday, June 13th, 2020 our cats will disappear and a video will appear instead, showing you live video of the wedding</p>
         </div>
@@ -153,7 +210,7 @@
         -->
 
         <!--Less Wordy Version-->
-        <div class="list1">
+        <div class="list-container want-list text-block">
             <h3>We Would Like...</h3>
             <ul>
                 <li>Monetary Gifts</li>
@@ -161,23 +218,29 @@
                 <li>Personal Handmade Gifts</li>
             </ul>
         </div>
-        <div class="list2">
+        <div class="list-container use-list text-block">
             <h3>We Will Use the Monetary Gifts For...</h3>
-            <h4>Educational Support</h4>
-            <ul>
-                <li>Relocating for David's PhD Program</li>
-                <li>Repaying Our Student Loans</li>
-            </ul>
-            <h4>Wedding Fund</h4>
-            <ul>
-                <li>Visiting David's Family in the UK</li>
-                <li>Funding Our Honeymoon</li>
-                <li>Financing the Wedding</li>
-            </ul>
+            <div class="gift-list-container">
+                <div class="gift-list edu-list">
+                    <h4>Educational Support</h4>
+                    <ul>
+                        <li>Relocating for David's PhD Program</li>
+                        <li>Repaying Our Student Loans</li>
+                    </ul>
+                    <a href="#" target='_blank' rel='noopener noreferrer'>Give a Monetary Gift</a>
+                </div>
+                <div class="gift-list wed-list">
+                    <h4>Wedding Fund</h4>
+                    <ul>
+                        <li>Visiting David's Family in the UK</li>
+                        <li>Funding Our Honeymoon</li>
+                        <li>Financing the Wedding</li>
+                    </ul>
+                    <a href="#" target='_blank' rel='noopener noreferrer'>Give a Monetary Gift</a>
+                </div>
+            </div>
         </div>
-        <p>We have each been living on our own for a while now, so we already have the items necessary for setting up a house. Therefore, we would prefer monetary gifts over physical gifts.</p>
-        <a href="#">Give a Monetary Gift</a>
-        <a href="#">Give a Monetary Gift</a>
+        <p class='text-block'>We have each been living on our own for a while now, so we already have the items necessary for setting up a house. Therefore, we would prefer monetary gifts over physical gifts.</p>
     </section>
 
     <section id="pics-page">

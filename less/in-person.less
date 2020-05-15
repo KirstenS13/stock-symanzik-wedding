@@ -1,6 +1,7 @@
 #in-person-page {
     background-color: @background-color;
-    padding: 200px 3%;
+    //padding: 200px 3%;
+    padding: @btwn-pg-space;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +10,8 @@
 
     scroll-behavior: smooth;
 
-    div {
+    /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
+    /* div {
         width: 50%;
 
         @media @tablet {
@@ -23,9 +25,9 @@
         h3 {
             padding-bottom: 20px;
         }
-    }
+    } */
 
-    .main-info {
+    /* .main-info {
         p {
             padding: 10px 0;
         }
@@ -33,5 +35,53 @@
 
     .hotel-info {
         padding: 40px 0;
+    } */
+    .hotel-info {
+        .grid-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            padding: 20px 0;
+
+            .grid-item {
+                width: 49%;
+                padding: 20px 10px;
+
+                border: 1px solid @border-color;
+
+                @media @tablet {
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+    .contact-info {
+        //border: 1px solid goldenrod;
+
+        .flex-container {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+            padding-top: 10px;
+
+            @media @mobile {
+                flex-direction: column;
+            }
+
+            .contact-card {
+                //border: 1px solid blue;
+
+                width: 30%;
+                overflow-wrap: break-word;
+
+                @media @tablet {
+                    width: 100%;
+                    padding: 20px 0;
+                }
+            }
+        }
     }
 }

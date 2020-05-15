@@ -1,22 +1,37 @@
 #rsvp-page {
     background-color: @secondary-bg-color;
-    padding: 200px 3%;
+    //padding: 200px 3%;
+    padding: @btwn-pg-space;
     border-bottom: 2px solid @border-color;
 
-    width: 50%;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    @media @tablet {
+    /* .rsvp-info {
+        width: 50%;
+        margin: 0 auto;
+
+        border: 1px solid purple;
+    } */
+
+    /* @media @tablet {
         width: 70%;
     }
 
     @media @mobile {
         width: 80%;
+    } */
+
+    a {
+        .button();
     }
 
-    p {
+    /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
+    /* p {
         padding-bottom: 10px;
-    }
+    } */
 
     // input {
     //     width: 80%;
