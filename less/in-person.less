@@ -46,28 +46,13 @@
 
             .grid-item {
                 width: 49%;
-                padding: 20px 0;
-            }
+                padding: 20px 10px;
 
-            .item-1 {
-                border: @grid-item-border;
-            }
+                border: 1px solid @border-color;
 
-            .item-2 {
-                border-top: @grid-item-border;
-                border-right: @grid-item-border;
-                border-bottom: @grid-item-border;
-            }
-
-            .item-3, .item-5 {
-                border-left: @grid-item-border;
-                border-bottom: @grid-item-border;
-                border-right: @grid-item-border;
-            }
-
-            .item-4, .item-6 {
-                border-right: @grid-item-border;
-                border-bottom: @grid-item-border;
+                @media @tablet {
+                    width: 90%;
+                }
             }
         }
     }
@@ -92,7 +77,7 @@
                 width: 30%;
                 overflow-wrap: break-word;
 
-                @media @mobile {
+                @media @tablet {
                     width: 100%;
                     padding: 20px 0;
                 }

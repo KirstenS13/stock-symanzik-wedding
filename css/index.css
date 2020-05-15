@@ -403,26 +403,13 @@ address {
 }
 #in-person-page .hotel-info .grid-container .grid-item {
   width: 49%;
-  padding: 20px 0;
+  padding: 20px 10px;
+  border: 1px solid silver;
 }
-#in-person-page .hotel-info .grid-container .item-1 {
-  border: 2px solid silver;
-}
-#in-person-page .hotel-info .grid-container .item-2 {
-  border-top: 2px solid silver;
-  border-right: 2px solid silver;
-  border-bottom: 2px solid silver;
-}
-#in-person-page .hotel-info .grid-container .item-3,
-#in-person-page .hotel-info .grid-container .item-5 {
-  border-left: 2px solid silver;
-  border-bottom: 2px solid silver;
-  border-right: 2px solid silver;
-}
-#in-person-page .hotel-info .grid-container .item-4,
-#in-person-page .hotel-info .grid-container .item-6 {
-  border-right: 2px solid silver;
-  border-bottom: 2px solid silver;
+@media (max-width: 800px) {
+  #in-person-page .hotel-info .grid-container .grid-item {
+    width: 90%;
+  }
 }
 #in-person-page .contact-info .flex-container {
   display: flex;
@@ -439,7 +426,7 @@ address {
   width: 30%;
   overflow-wrap: break-word;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #in-person-page .contact-info .flex-container .contact-card {
     width: 100%;
     padding: 20px 0;
@@ -545,7 +532,7 @@ address {
   display: flex;
   justify-content: space-around;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #gifts-page .use-list .gift-list-container {
     flex-direction: column;
   }
@@ -556,10 +543,15 @@ address {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 800px) {
+  #gifts-page .use-list .gift-list-container .gift-list {
+    padding-top: 20px;
+  }
+}
 #gifts-page .use-list .gift-list-container .gift-list ul {
   height: 120px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #gifts-page .use-list .gift-list-container .gift-list ul {
     height: auto;
   }
