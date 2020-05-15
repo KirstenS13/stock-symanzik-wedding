@@ -194,6 +194,7 @@ address {
 .text-block {
   width: 50%;
   padding: 40px 0;
+  border: 1px solid purple;
 }
 @media (max-width: 800px) {
   .text-block {
@@ -394,6 +395,12 @@ address {
     .hotel-info {
         padding: 40px 0;
     } */
+}
+#in-person-page .main-info {
+  background-color: thistle;
+}
+#in-person-page .hotel-info {
+  background-color: mistyrose;
 }
 #in-person-page .contact-info .flex-container {
   display: flex;
