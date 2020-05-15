@@ -194,7 +194,6 @@ address {
 .text-block {
   width: 50%;
   padding: 40px 0;
-  border: 1px solid purple;
 }
 @media (max-width: 800px) {
   .text-block {
@@ -572,12 +571,12 @@ address {
   background-color: white;
   padding: 250px 0;
   border-bottom: 2px solid silver;
-  /* h3 {
-        padding-bottom: 20px;
-    } */
   /* .collage1, .collage2 {
         padding-bottom: 80px;
     } */
+}
+#pics-page h3 {
+  padding: 60px 0 40px 0;
 }
 #pics-page .collage {
   display: flex;
@@ -589,6 +588,7 @@ address {
   display: inline-block;
   height: auto;
   width: 500px;
+  padding: 2px 0;
 }
 @media (max-width: 500px) {
   #pics-page .collage img {
@@ -598,14 +598,14 @@ address {
 footer {
   background-color: whitesmoke;
   padding: 250px 0;
-  /* p {
-        padding: 10px 0;
-    } */
+}
+footer p {
+  padding: 10px 0;
 }
 footer .img-creds {
   width: 80%;
   margin: 0 auto;
-  /* p {
-            padding: 10px 0;
-        } */
+}
+footer .img-creds p {
+  padding: 10px 0;
 }
