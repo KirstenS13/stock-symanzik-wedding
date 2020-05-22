@@ -592,29 +592,47 @@ address {
   background-color: white;
   padding: 250px 0;
   border-bottom: 2px solid silver;
+  /* .carousel {
+        border: 2px solid red;
+
+        width: 80%;
+        margin: auto;
+
+        .carousel-item {
+            //height: 75vh;
+
+            img {
+                height: 75vh;
+                width: auto;
+            }
+        }
+    } */
+  /* .collage {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+        //padding: 20px 0;
+
+        //border: 1px solid blue;
+
+        img {
+            display: inline-block;
+            height: auto;
+            width: 500px;
+            padding: 2px 0;
+        
+            @media @mobile {
+                width: 400px;
+            }
+        }
+    } */
   /* .collage1, .collage2 {
         padding-bottom: 80px;
     } */
 }
 #pics-page h3 {
   padding: 60px 0 40px 0;
-}
-#pics-page .collage {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: baseline;
-}
-#pics-page .collage img {
-  display: inline-block;
-  height: auto;
-  width: 500px;
-  padding: 2px 0;
-}
-@media (max-width: 500px) {
-  #pics-page .collage img {
-    width: 400px;
-  }
 }
 footer {
   background-color: whitesmoke;
