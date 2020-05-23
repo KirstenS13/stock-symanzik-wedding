@@ -529,6 +529,7 @@ address {
   padding-bottom: 30px;
 }
 #gifts-page .use-list .gift-list-container {
+  border: 1px solid green;
   display: flex;
   justify-content: space-around;
 }
@@ -538,6 +539,7 @@ address {
   }
 }
 #gifts-page .use-list .gift-list-container .gift-list {
+  border: 1px solid goldenrod;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -549,6 +551,7 @@ address {
   }
 }
 #gifts-page .use-list .gift-list-container .gift-list ul {
+  border: 1px solid goldenrod;
   height: 120px;
 }
 @media (max-width: 800px) {
