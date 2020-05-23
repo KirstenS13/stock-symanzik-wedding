@@ -561,6 +561,15 @@ address {
     padding-top: 20px;
   }
 }
+#gifts-page .ikea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#gifts-page .ikea a {
+  margin: 45px;
+}
 #gifts-page a {
   padding: 12px;
   margin: 20px;
