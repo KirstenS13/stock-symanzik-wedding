@@ -625,17 +625,30 @@ address {
   height: 600px;
   margin: auto;
 }
+@media (max-width: 800px) {
+  #pics-page .carousel {
+    width: 600px;
+    height: 450px;
+  }
+}
+@media (max-width: 500px) {
+  #pics-page .carousel {
+    width: 400px;
+    height: 300px;
+  }
+}
 footer {
   background-color: whitesmoke;
-  padding: 250px 0;
+  padding: 75px;
+  /* .img-creds {
+        width: 80%;
+        margin: 0 auto;
+
+        p {
+            padding: 10px 0;
+        }
+    } */
 }
 footer p {
-  padding: 10px 0;
-}
-footer .img-creds {
-  width: 80%;
-  margin: 0 auto;
-}
-footer .img-creds p {
   padding: 10px 0;
 }
