@@ -512,6 +512,19 @@ address {
   /* h3 {
             padding-bottom: 20px;
         } */
+  /* ul.dashed {
+            list-style: none;
+            padding-left: 0;
+
+            > li {
+                margin-left: 15px;
+            }
+
+            > li::before {
+                content: "—";
+                margin-left: -15px;
+            }
+        } */
 }
 @media (max-width: 800px) {
   #gifts-page .list-container {
@@ -524,7 +537,7 @@ address {
   }
 }
 #gifts-page .list-container li {
-  list-style: disc inside;
+  list-style: inside;
 }
 #gifts-page .use-list h3 {
   padding-bottom: 30px;
