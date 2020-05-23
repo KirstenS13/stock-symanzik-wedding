@@ -592,21 +592,6 @@ address {
   background-color: white;
   padding: 250px 0;
   border-bottom: 2px solid silver;
-  /* .carousel {
-        border: 2px solid red;
-
-        width: 80%;
-        margin: auto;
-
-        .carousel-item {
-            //height: 75vh;
-
-            img {
-                height: 75vh;
-                width: auto;
-            }
-        }
-    } */
   /* .collage {
         display: flex;
         flex-wrap: wrap;
@@ -633,6 +618,11 @@ address {
 }
 #pics-page h3 {
   padding: 60px 0 40px 0;
+}
+#pics-page .carousel {
+  width: 800px;
+  height: 600px;
+  margin: auto;
 }
 footer {
   background-color: whitesmoke;
