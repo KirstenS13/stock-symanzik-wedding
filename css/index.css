@@ -205,7 +205,7 @@ address {
     width: 90%;
   }
 }
-.navbar {
+.my-navbar {
   padding: 20px 0;
   background-color: rgba(255, 255, 255, 0.5);
   border-bottom: 2px solid silver;
@@ -213,25 +213,25 @@ address {
   top: 0;
   width: 100%;
 }
-.navbar nav {
+.my-navbar nav {
   display: flex;
   justify-content: space-evenly;
 }
 @media (max-width: 500px) {
-  .navbar nav {
+  .my-navbar nav {
     flex-wrap: wrap;
     width: 70%;
     height: 100px;
     margin: 0 auto;
   }
 }
-.navbar nav a {
+.my-navbar nav a {
   padding: 7px;
   font-size: 2rem;
   text-decoration: none;
   color: black;
 }
-.navbar nav a:hover {
+.my-navbar nav a:hover {
   background-color: whitesmoke;
   outline: 2px solid silver;
 }
@@ -240,6 +240,7 @@ address {
   border-bottom: 2px solid silver;
 }
 #homepage .title-info {
+  background-image: url('../img/Mikayla-david-ireland-engagement.jpg');
   height: 900px;
   background-size: cover;
   display: flex;
@@ -591,29 +592,47 @@ address {
   background-color: white;
   padding: 250px 0;
   border-bottom: 2px solid silver;
+  /* .carousel {
+        border: 2px solid red;
+
+        width: 80%;
+        margin: auto;
+
+        .carousel-item {
+            //height: 75vh;
+
+            img {
+                height: 75vh;
+                width: auto;
+            }
+        }
+    } */
+  /* .collage {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+        //padding: 20px 0;
+
+        //border: 1px solid blue;
+
+        img {
+            display: inline-block;
+            height: auto;
+            width: 500px;
+            padding: 2px 0;
+        
+            @media @mobile {
+                width: 400px;
+            }
+        }
+    } */
   /* .collage1, .collage2 {
         padding-bottom: 80px;
     } */
 }
 #pics-page h3 {
   padding: 60px 0 40px 0;
-}
-#pics-page .collage {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: baseline;
-}
-#pics-page .collage img {
-  display: inline-block;
-  height: auto;
-  width: 500px;
-  padding: 2px 0;
-}
-@media (max-width: 500px) {
-  #pics-page .collage img {
-    width: 400px;
-  }
 }
 footer {
   background-color: whitesmoke;

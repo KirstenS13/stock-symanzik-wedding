@@ -7,14 +7,24 @@
 
     <title>Symanzik-Stock Wedding 2020</title>
 
+    <!-- adding bootstrap to try and make a carousel for pictures -->
+    <!-- bootstrap stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|EB+Garamond">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
+    <!-- Adding bootstrap JS script tags, adding defer attribute to the end of them -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous" defer></script>
+    <!-- End bootstrap script tags -->
+
     <h1>Symanzik-Stock Wedding 2020</h1>
     
-    <header class='navbar'>
+    <header class='my-navbar'>
         <nav>
             <a href="#homepage">Home</a>
             <a href="#home-info">About</a>
@@ -245,54 +255,98 @@
 
     <section id="pics-page">
         <h2>Pictures Of Us!</h2>
-        <h3>Our Engagement</h3>
-        <div class="collage collage1">
-            <!-- <img src="img/Mikayla-david-ireland-engagement.jpg" alt="Mikayla and David on a hill overlooking the sea in Ireland">
-            <img src="img/mikayla-david-red-table.jpg" alt="Mikayla and David eating at a red table">
-            <img src="img/mikayla-david-teal.jpg" alt="Mikayla and David wearing teal shirts">
-            <img src="img/mikayla-david-selfie.jpg" alt="Mikayla and David taking a selfie"> -->
-            <img src="img/sample-img5.jpg" alt="couple kissing under palm trees">
-            <img src="img/sample-img6.jpg" alt="flowers in a pool">
-        </div>
+
         <h3>Dating Life</h3>
-        <div class="collage collage2">
-            <img src="img/sample-img7.jpg" alt="woman holding flowers">
-            <img src="img/sample-img8.jpg" alt="couple walking into the party">
-            <img src="img/sample-img9.jpg" alt="woman holding bouquet">
-            <img src="img/sample-img10.jpg" alt="bouquet with wedding rings">
-            <img src="img/sample-img11.jpg" alt="table with flowers on it">
-            <img src="img/sample-img12.jpg" alt="closeup of a bouquet">
+        <div id="carouselDating" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/dating-md-1.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mikayla-david-teal.jpg" class="d-block w-100" alt="Mikayla and David wearing teal shirts">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/dating-md-2-600x.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie with popcorn">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/dating-md-5.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie with funny faces">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/dating-md-6-600x.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie outside">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/dating-md-7.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie in the sun">
+                </div>
+                <a class="carousel-control-prev" href="#carouselDating" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselDating" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
-        <h3>The Wedding</h3>
-        <div class="collage collage3">
-            <img src="img/sample-img13.jpg" alt="couple on a hill">
-            <img src="img/sample-img14.jpg" alt="woman walking in a wedding dress">
-            <img src="img/sample-img15.jpg" alt="couple holding hands at their wedding">
-            <img src="img/sample-img16.jpg" alt="bridesmaids with bouquets">
-            <img src="img/sample-img17.jpg" alt="woman leaning on a man's shoulder">
-            <img src="img/sample-img18.jpg" alt="couple holding hands staring at a view">
+        
+        <h3>Our Engagement</h3>
+        <div id="carouselEngagement" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Mikayla-david-ireland-engagement.jpg" class="d-block w-100" alt="Mikayla and David on a hill overlooking the sea in Ireland">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mikayla-david-red-table.jpg" class="d-block w-100" alt="Mikayla and David eating at a red table">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mikayla-david-selfie.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/enga-md-1.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/enga-md-2.jpg" class="d-block w-100" alt="Mikayla and David dressed as Wesley and Buttercup from The Princess Bride">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/enga-md-7.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie in the woods">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/enga-md-8.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie on a hill">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/enga-md-11.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie on another hill">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/enga-md-12.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie on that hill again">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/enga-md-14.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie on that same hill once more">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/enga-md-15.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie in the woods">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/enga-md-16.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie by the sea">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/enga-md-20.jpg" class="d-block w-100" alt="Mikayla and David taking a selfie with David's cat Lucy">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/enga-md-21.jpg" class="d-block w-100" alt="Mikayla and David's shadows">
+                </div>
+                <a class="carousel-control-prev" href="#carouselEngagement" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselEngagement" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
     </section>
 
     <footer>
         <p>Footer content</p>
-        <p>Photo Credits:</p>
-        <div class="img-creds">
-            <p>Photo 5 by Christian Diaz on Unsplash</p>
-            <p>Photo 6 by Elise St. Clair on Unsplash</p>
-            <p>Photo 7 by Kyle Caraher on Unsplash</p>
-            <p>Photo 8 by Andreas Rønningen on Unsplash</p>
-            <p>Photo 9 by Kace Rodriguez on Unsplash</p>
-            <p>Photo 10 by Irina Iriser on Unsplash</p>
-            <p>Photo 11 by BRUNO CERVERA on Unsplash</p>
-            <p>Photo 12 by Jez Timms on Unsplash</p>
-            <p>Photo 13 by Foto Pettine on Unsplash</p>
-            <p>Photo 14 by Scott Broome on Unsplash</p>
-            <p>Photo 15 by Saad on Unsplash</p>
-            <p>Photo 16 by Thomas AE on Unsplash</p>
-            <p>Photo 17 by freestocks on Unsplash</p>
-            <p>Photo 18 by Bin Thiều on Unsplash</p>
-        </div>
     </footer>
 </body>
 </html>
