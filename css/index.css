@@ -212,6 +212,7 @@ address {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 .my-navbar nav {
   display: flex;
@@ -592,21 +593,6 @@ address {
   background-color: white;
   padding: 250px 0;
   border-bottom: 2px solid silver;
-  /* .carousel {
-        border: 2px solid red;
-
-        width: 80%;
-        margin: auto;
-
-        .carousel-item {
-            //height: 75vh;
-
-            img {
-                height: 75vh;
-                width: auto;
-            }
-        }
-    } */
   /* .collage {
         display: flex;
         flex-wrap: wrap;
@@ -634,17 +620,35 @@ address {
 #pics-page h3 {
   padding: 60px 0 40px 0;
 }
+#pics-page .carousel {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+}
+@media (max-width: 800px) {
+  #pics-page .carousel {
+    width: 600px;
+    height: 450px;
+  }
+}
+@media (max-width: 500px) {
+  #pics-page .carousel {
+    width: 400px;
+    height: 300px;
+  }
+}
 footer {
   background-color: whitesmoke;
-  padding: 250px 0;
+  padding: 75px;
+  /* .img-creds {
+        width: 80%;
+        margin: 0 auto;
+
+        p {
+            padding: 10px 0;
+        }
+    } */
 }
 footer p {
-  padding: 10px 0;
-}
-footer .img-creds {
-  width: 80%;
-  margin: 0 auto;
-}
-footer .img-creds p {
   padding: 10px 0;
 }
