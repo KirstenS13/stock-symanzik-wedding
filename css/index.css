@@ -371,24 +371,29 @@ address {
   align-items: center;
   border-bottom: 2px solid silver;
 }
-#livestream-page .whatLive p,
-#livestream-page .whenLive p {
+#livestream-page .what-live p,
+#livestream-page .when-live p {
   text-align: justify;
 }
-#livestream-page .howLive .flex-container {
+#livestream-page .how-live .flex-container {
   display: flex;
   justify-content: space-evenly;
   padding: 20px 0;
 }
-#livestream-page .howLive .flex-container h4 {
+#livestream-page .how-live .flex-container h4 {
   width: 15%;
 }
-#livestream-page .howLive .flex-container p {
+#livestream-page .how-live .flex-container p {
   width: 75%;
   text-align: left;
 }
-#livestream-page .livestream p {
+#livestream-page .livestream .cat-box {
   width: 100%;
+  display: flex;
+}
+#livestream-page .livestream .cat-box img {
+  height: 200px;
+  width: auto;
 }
 #gifts-page {
   background-color: whitesmoke;
