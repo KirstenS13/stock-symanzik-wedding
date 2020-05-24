@@ -188,9 +188,6 @@ a,
 address {
   font-size: 1.7rem;
 }
-/* input, label {
-  display: inline-block;
-} */
 .text-block {
   width: 50%;
   padding: 40px 0;
@@ -248,17 +245,6 @@ address {
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid silver;
-  /* img {
-            display: none;
-
-            @media @mobile {
-                display: block;
-                width: 400px;
-                height: auto;
-                border-radius: 30px;
-                border: 1px solid @border-color;
-            }
-        } */
 }
 @media (max-width: 500px) {
   #homepage .title-info {
@@ -288,9 +274,6 @@ address {
 }
 #homepage .title-info .opaque-box .location-info {
   font-size: 1.9rem;
-  /* p {
-                    padding: 5px 0;
-                } */
 }
 #homepage .home-info {
   padding: 250px 0;
@@ -298,25 +281,6 @@ address {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
-  /* div {
-            width: 50%;
-
-            @media @tablet {
-                width: 70%;
-            }
-
-            @media @mobile {
-                width: 80%;
-            }
-
-            h3 {
-                padding-bottom: 20px;
-            }
-        } */
-  /* .para2 {
-            padding: 40px 0;
-        } */
 }
 #rsvp-page {
   background-color: white;
@@ -326,23 +290,6 @@ address {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* .rsvp-info {
-        width: 50%;
-        margin: 0 auto;
-
-        border: 1px solid purple;
-    } */
-  /* @media @tablet {
-        width: 70%;
-    }
-
-    @media @mobile {
-        width: 80%;
-    } */
-  /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
-  /* p {
-        padding-bottom: 10px;
-    } */
 }
 #rsvp-page a {
   padding: 12px;
@@ -370,31 +317,6 @@ address {
   justify-content: space-evenly;
   border-bottom: 2px solid silver;
   scroll-behavior: smooth;
-  /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
-  /* div {
-        width: 50%;
-
-        @media @tablet {
-            width: 70%;
-        }
-
-        @media @mobile {
-            width: 80%;
-        }
-
-        h3 {
-            padding-bottom: 20px;
-        }
-    } */
-  /* .main-info {
-        p {
-            padding: 10px 0;
-        }
-    }
-
-    .hotel-info {
-        padding: 40px 0;
-    } */
 }
 #in-person-page .hotel-info .grid-container {
   display: flex;
@@ -440,29 +362,6 @@ address {
   flex-direction: column;
   align-items: center;
   border-bottom: 2px solid silver;
-  /* commenting this out because I'm trying to style all the text-block div/p tags with a class in the global.less file */
-  /* div {
-        width: 50%;
-
-        @media @tablet {
-            width: 70%;
-        }
-
-        @media @mobile {
-            width: 80%;
-        }
-
-        h3 {
-            padding-bottom: 20px;
-        }
-    } */
-  /* .para2 {
-        padding: 40px 0;
-    }
-
-    .para3 {
-        padding-bottom: 40px;
-    } */
 }
 #livestream-page .para2 .flex-container {
   display: flex;
@@ -538,29 +437,6 @@ address {
   background-color: white;
   padding: 250px 0;
   border-bottom: 2px solid silver;
-  /* .collage {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: baseline;
-        //padding: 20px 0;
-
-        //border: 1px solid blue;
-
-        img {
-            display: inline-block;
-            height: auto;
-            width: 500px;
-            padding: 2px 0;
-        
-            @media @mobile {
-                width: 400px;
-            }
-        }
-    } */
-  /* .collage1, .collage2 {
-        padding-bottom: 80px;
-    } */
 }
 #pics-page h3 {
   padding: 60px 0 40px 0;
@@ -585,14 +461,6 @@ address {
 footer {
   background-color: whitesmoke;
   padding: 75px;
-  /* .img-creds {
-        width: 80%;
-        margin: 0 auto;
-
-        p {
-            padding: 10px 0;
-        }
-    } */
 }
 footer p {
   padding: 10px 0;
