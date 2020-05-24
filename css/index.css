@@ -282,6 +282,14 @@ address {
   justify-content: space-evenly;
   align-items: center;
 }
+#homepage .home-info .couple-info p {
+  font-size: 1.9rem;
+  padding: 20px 0;
+  text-align: justify;
+}
+#homepage .home-info .updates p {
+  text-align: justify;
+}
 #rsvp-page {
   background-color: white;
   padding: 250px 0;
@@ -363,15 +371,19 @@ address {
   align-items: center;
   border-bottom: 2px solid silver;
 }
-#livestream-page .para2 .flex-container {
+#livestream-page .whatLive p,
+#livestream-page .whenLive p {
+  text-align: justify;
+}
+#livestream-page .howLive .flex-container {
   display: flex;
   justify-content: space-evenly;
   padding: 20px 0;
 }
-#livestream-page .para2 .flex-container h4 {
+#livestream-page .howLive .flex-container h4 {
   width: 15%;
 }
-#livestream-page .para2 .flex-container p {
+#livestream-page .howLive .flex-container p {
   width: 75%;
   text-align: left;
 }
