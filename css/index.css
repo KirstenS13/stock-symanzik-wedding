@@ -285,10 +285,6 @@ address {
 #homepage .home-info .couple-info p {
   font-size: 1.9rem;
   padding: 20px 0;
-  text-align: justify;
-}
-#homepage .home-info .updates p {
-  text-align: justify;
 }
 #rsvp-page {
   background-color: white;
@@ -370,10 +366,6 @@ address {
   flex-direction: column;
   align-items: center;
   border-bottom: 2px solid silver;
-}
-#livestream-page .what-live p,
-#livestream-page .when-live p {
-  text-align: justify;
 }
 #livestream-page .how-live .flex-container {
   display: flex;
