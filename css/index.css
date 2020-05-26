@@ -240,7 +240,7 @@ address {
 #homepage .title-info {
   background-image: url('../img/Mikayla-david-ireland-engagement.jpg');
   height: 900px;
-  background-size: cover;
+  background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -424,6 +424,9 @@ address {
 }
 #gifts-page .ikea a {
   margin: 45px;
+}
+#gifts-page .contact p {
+  padding: 20px 0;
 }
 #gifts-page a {
   padding: 12px;
