@@ -28,7 +28,7 @@
         <nav>
             <a href="#homepage">Home</a>
             <a href="#home-info">About</a>
-            <a href="#livestream-page">Livestream</a>
+            <a href="#livestream-page">Video</a>
             <a href="#gifts-page">Gifts</a>
             <a href="#pics-page">Pictures</a>
         </nav>
@@ -56,35 +56,41 @@
             </div>
             <div class="updates text-block">
                 <h3>Updates</h3>
-                <h4>5.23.2020:</h4>
-                <p>The wedding will continue on June 13th at 4:00pm, EST, where a small ceremony will be livestreamed for our guests. We intend to hold a larger celebratory party next year, for all our guests, after Covid-19 has run its course.</p>
+                <h4>5.30.2020:</h4>
+                <p>Due to technical complications, we will not be able to livestream the ceremony. We will, however, still be able to video the ceremony and will be able to post it shortly (within an hour or so) afterwards.</p>
             </div>
         </div>
     </section>
 
     <section id="livestream-page">
-        <h2>Attending Online</h2>
-        <div class="what-live text-block">
-            <h3>What is a livestream?</h3>
-            <p>A livestream is a video setup that allows viewers to witness the video as it is being recorded. What this means is that any of our guests navigating to this page will be able to witness, at the exact same time as our in-person attendees, the ceremony unfold. You will get to see all the funny, heartfelt moments at the same time as those sitting with us in Michigan - albeit from the comfort of your own home.</p>
-        </div>
-        <div class="how-live text-block">
-            <h3>How do I use it?</h3>
-            <div class="flex-container">
-                <h4>Step 1:</h4>
-                <p>Go online and find your way back to this page about 10 minutes before 4:00pm on Saturday, June 13th, 2020.</p>
-            </div>
-            <div class="flex-container">
-                <h4>Step 2:</h4>
-                <p>Using your mouse, scroll to the bottom of this page. You should see a box - at this moment it shows a picture of our cats, Edmund (Black) and Lucy (Ginger) - when we start recording the livestream video will replace our cats</p>
-            </div>
-        </div>
+        <h2>Ceremony Video</h2>
+        <p id='countdown' style="font-size: 3rem; line-height: 1; padding-top: 10px;"></p>
+
+        <script>
+            const countDownDate = new Date('Jun 13, 2020 17:00:00').getTime();
+            console.log(countDownDate)
+            
+            const x = setInterval(function() {
+            let now = new Date().getTime();
+            let distance = countDownDate - now;
+            
+            let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            document.getElementById("countdown").innerText = `${days}:${hours}:${minutes}:${seconds}`;
+            
+            if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown").innerText = "The video should be up, and if not it will be up as soon as possible.";
+            }
+        }, 1000);
+        </script>
         <div class="when-live text-block">
-            <h3>When will it be available?</h3>
-            <p>The livestream will be available at 3:50pm, Saturday, June 13th, 2020. At the moment all you can see is a box with two adorable cats (our Edmund and Lucy). At 3:50pm on Saturday, June 13th, 2020 our cats will disappear and a link will appear instead, leading you to live footage of the wedding.</p>
+            <p>The video of the ceremony will be posted shortly after 5:00pm US Eastern Standard Time, Saturday, June 13th, 2020. At the moment all you can see is a box with two adorable cats (our Edmund and Lucy). When the video is available our cats will be replaced with the video.</p>
         </div>
         <div class="livestream">
-            <h3>Livestream</h3>
             <div class="cat-box">
                 <div>
                     <p>Lucy</p>
