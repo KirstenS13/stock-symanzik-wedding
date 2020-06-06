@@ -368,6 +368,12 @@ address {
   flex-direction: column;
   align-items: center;
   border-bottom: 2px solid silver;
+  /* .test {
+        background-color: plum;
+        height: 500px;
+        width: 500px;
+        border-radius: 100px;
+    } */
 }
 #livestream-page .livestream .cat-box {
   width: 100%;
@@ -376,12 +382,6 @@ address {
 #livestream-page .livestream .cat-box img {
   height: 200px;
   width: auto;
-}
-#livestream-page .test {
-  background-color: plum;
-  height: 500px;
-  width: 500px;
-  border-radius: 100px;
 }
 #gifts-page {
   background-color: whitesmoke;
