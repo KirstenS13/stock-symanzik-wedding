@@ -375,13 +375,14 @@ address {
         border-radius: 100px;
     } */
 }
-#livestream-page .livestream .cat-box {
+#livestream-page .livestream .video-box {
   width: 100%;
+  margin: auto;
   display: flex;
+  flex-direction: column;
 }
-#livestream-page .livestream .cat-box img {
-  height: 200px;
-  width: auto;
+#livestream-page .livestream .video-box iframe {
+  padding: 20px;
 }
 #gifts-page {
   background-color: whitesmoke;
