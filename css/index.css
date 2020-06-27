@@ -455,6 +455,11 @@ address {
   height: 600px;
   margin: auto;
 }
+#pics-page .carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
 @media (max-width: 800px) {
   #pics-page .carousel {
     width: 600px;
